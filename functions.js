@@ -24,8 +24,22 @@ map.on('load', () => {
         source: 'proj-data',
         paint: {
             'circle-radius': 3,
-            'circle-color': '#FFFF00',
+            'circle-color': ['match',
+                ['get', 'PROJECT_END_YEAR'],
+                'Ongoing', '#FFFF00',
+                'N/A', '#000000',
+                /* other */ '#008000'
+            ]
         }
     })
 });
 
+// When mouse enters a point
+map.on("mouseenter", "show-pts", () => {
+    map.getCanvas().style.cursor = "pointer"; // Switch cursor to pointer
+});
+
+// When mouse leaves a point
+map.on("mouseleave", "show-pts", () => {
+    map.getCanvas().style.cursor = ""; // Switch pointer to cursor
+});
