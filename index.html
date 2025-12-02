@@ -24,7 +24,7 @@
 <body>
 
         <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-danger" data-bs-theme="dark">
         <div class="container-fluid">
             
             <a class="navbar-brand"><b>USI Projects Database</b></a>
@@ -55,11 +55,32 @@
         </ul>
     </div>
 
+    <div class = 'project_number_search' id = 'project_number_search'>
+        <label for = 'project_number'><h3>Search by Project Number</h3></label>
+        <input type = 'text' class = 'project_number_input' name = 'project_number' id = 'project_number' placeholder = 'Enter exact project number'>
+    </div>
+
+    <div class = 'proj_type_dropdown' id = 'proj_type_dropdown'>
+        <label for = 'proj_type'><h3>Filter by Project Type</h3></label>
+        <select class = 'form-select' id = 'proj_type'>
+            <option value = '' disabled selected>Select project type</option>
+            <option value = 'All'>All</option>
+            <option value = 'Master Planning'>Master Planning</option>
+            <option value = 'Development Approvals'>Development Approvals</option>
+            <option value = 'Community Engagement'>Community Engagement</option>
+            <option value = 'Due Diligence Study'>Due Diligence Study</option>
+            <option value = 'Planning Analysis'>Planning Analysis</option>
+            <option value = 'Transit-Oriented Development'>Transit-Oriented Development</option>
+            <option value = 'Urban Design'>Urban Design</option>
+            <option value = 'N/A'>N/A</option>
+        </select>
+    </div>
+
     <div class = 'person_search' id = 'person_search'>
         <label for = 'people'><h3>Search by Team Member</h3></label>
         <select class = 'member_searchbar' name = 'people' id = 'people'>
             <option value = '' disabled selected>Search by Team Member</option>
-            <option value = 'All'>All</option>
+            <option value = 'All'>All</option>    
             <option value = 'Leigh McGrath'>Leigh McGrath</option>
             <option value = 'Peter Pantalone'>Peter Pantalone</option>
             <option value = 'Cyndi Rottenberg-Walker'>Cyndi Rottenberg-Walker</option>
@@ -107,6 +128,8 @@
             <option value = 'Grant Mason'>Grant Mason</option>
         </select>
     </div>
+
+   
 
     <div class = 'proj_data' id = 'proj_data'></div>
 

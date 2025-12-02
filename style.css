@@ -31,7 +31,7 @@
     overflow: visible; /* does not clip overflow */
     background: white;
     border: 3px solid #5B1166;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 /* Search by team member box - same styling as description */
@@ -55,6 +55,39 @@
     font-size: 22px;
 }
 
+/* Search by project number box - same styling as person_search */
+.project_number_search {
+    float: left;
+    width: calc(25% - 30px);
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: white;
+    border: 3px solid #5B1166;
+    font-size: 22px;
+}
+
+.proj_type_dropdown {
+    float: left;
+    width: calc(25% - 30px);
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: white;
+    border: 3px solid #5B1166;
+    font-size: 22px;
+}
+
+/* Project number input styling */
+.project_number_search .project_number_input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
 /* Controls and filters */
 #returnbutton {
     position: relative;
@@ -76,16 +109,19 @@
 
 .proj_data {
     display: none; /* hidden until a project point is clicked */
-    float: left;
-    width: calc(25% - 30px);
-    max-height: calc(100vh - 95px);
-    padding: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 600px;
+    max-height: 600px;
+    padding: 15px;
     overflow-y: scroll; /* vertical scroll overflow */
     background: white;
     border: 3px solid #5B1166;
-    font-size: 22px;
+    border-radius: 8px;
+    font-size: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
 }
 
 /* visible state when a project is selected */

@@ -86,13 +86,14 @@ map.on('click', 'proj-points', (e) => {
     // move camera to clicked point
     map.flyTo({
         center: coordinates,
+        zoom: 14
     });
 
     const buttonID = e.features[0].id
 
     const description = `
       <div>
-        <h5>${e.features[0].properties.PROJECT_NAME}</h5>
+        <h3>${e.features[0].properties.PROJECT_NAME}</h3>
         <p><strong>Project Number:</strong> ${e.features[0].properties.PROJECT_NUMBER}</p>
         <p><strong>Address:</strong> ${e.features[0].properties.ADDRESS}</p>
       </div>
@@ -117,14 +118,29 @@ map.on('click', 'proj-points', (e) => {
             ? properties['PROJECT_TYPE'].join(', ')
             : properties['PROJECT_TYPE'] || 'N/A';
         
+        const cliName = Array.isArray(properties['CLIENT_NAME'])
+            ? properties['CLIENT_NAME'].join(', ')
+            : properties['CLIENT_NAME'] || 'N/A';
+        
+        const cliType = Array.isArray(properties['CLIENT_TYPE'])
+            ? properties['CLIENT_TYPE'].join(', ')
+            : properties['CLIENT_TYPE'] || 'N/A';
+        
         const USIteam = Array.isArray(properties['USI_TEAM_MEMBERS'])
             ? properties['USI_TEAM_MEMBERS'].join(', ')
             : properties['USI_TEAM_MEMBERS'] || 'N/A';
 
+        const bylawnum = Array.isArray(properties['BY_LAW_NUM'])
+            ? properties['BY_LAW_NUM'].join(', ')
+            : properties['BY_LAW_NUM'] || 'N/A';
+        
         const PROJTYPE = `<p><strong>Project Type: </strong>${projtype}</p>`
+        const clientName = `<p><strong>Client Name(s): </strong>${cliName}</p>`
+        const clientType = `<p><strong>Client Type: </strong>${cliType}</p>`
         const usiteam = `<p><strong>USI Team Members: </strong>${USIteam}</p>`
+        const bylaw = `<p><strong>By-law Number(s): </strong>${bylawnum}</p>`
 
-        projInfoDiv.innerHTML = projname + projnum + address + PROJTYPE + usiteam;
+        projInfoDiv.innerHTML = projname + projnum + address + PROJTYPE + clientName + clientType + usiteam + bylaw;
         // make the project info panel visible when a point is clicked
         projInfoDiv.style.display = 'block';
         projInfoDiv.classList.add('visible');
@@ -206,3 +222,51 @@ $(function(){
         }
     })
 });
+
+/* -----------------------------------
+    Search by Project Number
+------------------------------------*/
+
+$(function(){
+    $('.project_number_input').on('input', function() {
+        var projectNumber = $(this).val().trim();
+        console.log('Searching for project number:', projectNumber);
+
+        if (!projectNumber) {
+            // If input is empty, show all points
+            map.setFilter('proj-points', null);
+        } else {
+            // Filter to show only projects matching the project number
+            map.setFilter(
+                'proj-points',
+                ['==', ['get', 'PROJECT_NUMBER'], projectNumber]
+            );
+        }
+    })
+});
+
+/* -----------------------------------
+    Filter by Project Type
+------------------------------------*/
+
+let selectedProjType;
+
+const projTypeEl = document.getElementById('proj_type');
+if (projTypeEl) {
+    projTypeEl.addEventListener('change', (e) => {
+        selectedProjType = e.target.value;
+        console.log('proj_type changed ->', selectedProjType);
+
+        // use the actual layer id 'proj-points' and correct method name
+        if (selectedProjType === 'All' || !selectedProjType) {
+            map.setFilter('proj-points', null);
+        } else {
+            map.setFilter(
+                'proj-points',
+                ['in', selectedProjType, ['get', 'PROJECT_TYPE']]
+            );
+        }
+    });
+} else {
+    console.warn('#proj_type element not found');
+}

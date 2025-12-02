@@ -155,7 +155,8 @@
         "USI_TEAM_MEMBERS": [
           "Cyndi Rottenberg-Walker",
           "Leigh McGrath",
-          "Josh Kohler"
+          "Josh Kohler",
+          "Anne Benaroya"
         ],
         "PRINCIPAL_IN_CHARGE": "Leigh McGrath",
         "PROJECT_MANAGER": "Anne Benaroya",
@@ -460,7 +461,8 @@
         "WARD": 11,
         "USI_TEAM_MEMBERS": [
           "Benjamin Hoff",
-          "Inger Squires"
+          "Inger Squires",
+          "Kiera McMaster"
         ],
         "PRINCIPAL_IN_CHARGE": "Inger Squires",
         "PROJECT_MANAGER": "Kiera McMaster",
@@ -520,7 +522,8 @@
           "Cyndi Rottenberg-Walker",
           "Inger Squires",
           "Michel Trocme",
-          "Anne Benaroya"
+          "Anne Benaroya",
+          "Samantha Anderson"
         ],
         "PRINCIPAL_IN_CHARGE": "Inger Squires",
         "PROJECT_MANAGER": "Samantha Anderson",
@@ -578,7 +581,9 @@
         "MUNICIPALITY": "Toronto",
         "WARD": 10,
         "USI_TEAM_MEMBERS": [
-          "Cyndi Rottenberg-Walker"
+          "Cyndi Rottenberg-Walker",
+          "Josh Neubauer",
+          "Matthew Whittier"
         ],
         "PRINCIPAL_IN_CHARGE": "Josh Neubauer",
         "PROJECT_MANAGER": "Matthew Whittier",
@@ -634,7 +639,9 @@
         "MUNICIPALITY": "Toronto",
         "WARD": 10,
         "USI_TEAM_MEMBERS": [
-          "Cyndi Rottenberg-Walker"
+          "Cyndi Rottenberg-Walker",
+          "Josh Neubauer",
+          "Matthew Whittier"
         ],
         "PRINCIPAL_IN_CHARGE": "Josh Neubauer",
         "PROJECT_MANAGER": "Matthew Whittier",
@@ -813,7 +820,8 @@
         "MUNICIPALITY": "Toronto",
         "WARD": 16,
         "USI_TEAM_MEMBERS": [
-          "Benjamin Hoff"
+          "Benjamin Hoff",
+          "Lauren Haein An"
         ],
         "PRINCIPAL_IN_CHARGE": "Benjamin Hoff",
         "PROJECT_MANAGER": "Lauren Haein An",
@@ -932,7 +940,8 @@
         "WARD": 5,
         "USI_TEAM_MEMBERS": [
           "Benjamin Hoff",
-          "Josh Reiniger"
+          "Josh Reiniger",
+          "Stuart Dow"
         ],
         "PRINCIPAL_IN_CHARGE": "Benjamin Hoff",
         "PROJECT_MANAGER": "Stuart Dow?",
@@ -993,7 +1002,8 @@
         "WARD": 5,
         "USI_TEAM_MEMBERS": [
           "Benjamin Hoff",
-          "Josh Reiniger"
+          "Josh Reiniger",
+          "Stuart Dow"
         ],
         "PRINCIPAL_IN_CHARGE": "Benjamin Hoff",
         "PROJECT_MANAGER": "Stuart Dow?",
@@ -1053,7 +1063,7 @@
         "MUNICIPALITY": "Toronto ",
         "WARD": 5,
         "USI_TEAM_MEMBERS": [
-          "Benjamin Hoff, Josh Reiniger"
+          "Benjamin Hoff", "Josh Reiniger", "Stuart Dow"
         ],
         "PRINCIPAL_IN_CHARGE": "Benjamin Hoff",
         "PROJECT_MANAGER": "Stuart Dow?",
@@ -1424,7 +1434,8 @@
         "WARD": 13,
         "USI_TEAM_MEMBERS": [
           "Frank Lewinberg",
-          "Christine Fang-Denissov"
+          "Christine Fang-Denissov",
+          "Kiera McMaster"
         ],
         "PRINCIPAL_IN_CHARGE": "Christine Fang Denissov",
         "PROJECT_MANAGER": "Kiera McMaster",
@@ -1486,7 +1497,9 @@
         "WARD": 3,
         "USI_TEAM_MEMBERS": [
           "Eric Turcotte",
-          "Harshitha Damodaran"
+          "Harshitha Damodaran",
+          "Benjamin Hoff",
+          "Corals Zheng"
         ],
         "PRINCIPAL_IN_CHARGE": "Benjamin Hoff",
         "PROJECT_MANAGER": "Corals Zheng",
@@ -1550,7 +1563,8 @@
         "USI_TEAM_MEMBERS": [
           "Eric Turcotte",
           "Leigh McGrath",
-          "Mihaly Szabo"
+          "Mihaly Szabo",
+          "Desi Simova"
         ],
         "PRINCIPAL_IN_CHARGE": "Eric Turcotte",
         "PROJECT_MANAGER": "Desi Simova",
@@ -1863,7 +1877,8 @@
         "WARD": 12,
         "USI_TEAM_MEMBERS": [
           "Christine Fang-Denissov",
-          "Craig Lametti"
+          "Craig Lametti",
+          "Sara Eng"
         ],
         "PRINCIPAL_IN_CHARGE": "Christine Fang Denissov",
         "PROJECT_MANAGER": "Sara Eng",
@@ -2178,7 +2193,8 @@
         "WARD": 21,
         "USI_TEAM_MEMBERS": [
           "Harshitha Damodaran",
-          "Samantha Anderson"
+          "Samantha Anderson",
+          "Craig Lametti"
         ],
         "PRINCIPAL_IN_CHARGE": "Craig Lametti",
         "PROJECT_MANAGER": "Samantha Anderson",
@@ -2604,7 +2620,8 @@
           "Benjamin Hoff",
           "Geoff Whittaker",
           "Samuel Lozeau",
-          "Harshitha Damodaran"
+          "Harshitha Damodaran",
+          "Kenny Lamizana"
         ],
         "PRINCIPAL_IN_CHARGE": "Benjamin Hoff",
         "PROJECT_MANAGER": "Kenny Lamizana",
@@ -2914,7 +2931,8 @@
           "Christine Fang-Denissov",
           "Sirous Ghanbar Zadeh",
           "Aya Almaddah",
-          "Sean Quin"
+          "Sean Quin",
+          "Kenny Lamizana"
         ],
         "PRINCIPAL_IN_CHARGE": "Melanie Hare",
         "PROJECT_MANAGER": "Kenny Lamizana",
@@ -2977,7 +2995,8 @@
           "Mary Castel",
           "Aya Almaddah",
           "Ning Lin",
-          "Desi Simova"
+          "Desi Simova",
+          "Josh Neubauer"
         ],
         "PRINCIPAL_IN_CHARGE": "Josh Neubauer",
         "PROJECT_MANAGER": "Desi Simova",
@@ -3107,7 +3126,8 @@
           "Michel Trocme",
           "Dennis Lago",
           "Harshitha Damodaran",
-          "Sean Quin"
+          "Sean Quin",
+          "Grant Mason"
         ],
         "PRINCIPAL_IN_CHARGE": "Christine Fang Denissov",
         "PROJECT_MANAGER": "Grant Mason",
@@ -3587,7 +3607,8 @@
           "Christine Fang-Denissov",
           "Michel Trocme",
           "Josh Kohler",
-          "CK?"
+          "Corals Zheng",
+          "Leigh McGrath"
         ],
         "PRINCIPAL_IN_CHARGE": "Leigh McGrath",
         "PROJECT_MANAGER": "Corals Zheng",
