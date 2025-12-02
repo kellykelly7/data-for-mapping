@@ -1,7 +1,9 @@
+/* set navigation bar height */
 .navbar {
     height: 75px;
 }
 
+/* set map-container position, margins, and size */
 .map-container {
     float: right;
     height: calc(100vh - 95px);
@@ -11,6 +13,14 @@
     width: 75%;
 }
 
+.map-search-container {
+    float: left;
+    margin-left: 10px;
+    padding: 10px;
+    overflow: visible
+}
+
+/* position the description/instruction box on left of page, next to map */
 .description {
     float: left;
     width: calc(25% - 30px);
@@ -21,6 +31,64 @@
     overflow: visible; /* does not clip overflow */
     background: white;
     border: 3px solid #5B1166;
-    font-size: 16px;
+    font-size: 24px;
 }
 
+/* Search by team member box - same styling as description */
+.person_search {
+    float: left;
+    width: calc(25% - 30px);
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: white;
+    border: 3px solid #5B1166;
+    font-size: 22px;
+}
+
+/* Select2 dropdown styling to match the container */
+.person_search .member_searchbar {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 22px;
+}
+
+/* Controls and filters */
+#returnbutton {
+    position: relative;
+    width: 200px;
+    margin-top: 10px;
+    left: 10px;
+    float: left;
+    z-index: 2;
+}
+
+/* Pop up and sidebar */
+.mapboxgl-popup-content {
+    color: #000;
+    background-color: #FFEE8C;
+    border-radius: 5px;
+    max-width: 600px;
+    font: 400 28px/32px 'Helvetica Neue';
+}
+
+.proj_data {
+    display: none; /* hidden until a project point is clicked */
+    float: left;
+    width: calc(25% - 30px);
+    max-height: calc(100vh - 95px);
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    overflow-y: scroll; /* vertical scroll overflow */
+    background: white;
+    border: 3px solid #5B1166;
+    font-size: 22px;
+}
+
+/* visible state when a project is selected */
+.proj_data.visible, #proj_data.visible {
+    display: block;
+}

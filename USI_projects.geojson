@@ -24,7 +24,7 @@
         "CENTROID_COORDS": "(-79.3712680, 43.6527298)",
         "ADDRESS": "125 George Street, Toronto, Ontario",
         "PROJECT_TYPE": [
-          ""
+          "N/A"
         ],
         "PROJECT_FOCUS": [
           "Residential",
@@ -84,7 +84,7 @@
         "CENTROID_COORDS": "(-79.3950061, 43.6464978)",
         "ADDRESS": "101 Spadina Avenue, Toronto, Ontario",
         "PROJECT_TYPE": [
-          ""
+          "N/A"
         ],
         "PROJECT_FOCUS": [
           "Residential"
@@ -205,7 +205,7 @@
         "CENTROID_COORDS": "(-79.3871454, 43.6673132)",
         "ADDRESS": "25 St. Mary Street, Toronto, Ontario",
         "PROJECT_TYPE": [
-          ""
+          "N/A"
         ],
         "PROJECT_FOCUS": [
           "Residential"
@@ -264,7 +264,7 @@
         ],
         "CENTROID_COORDS": "(-79.4458818, 43.7821101)",
         "ADDRESS": "155 Antibes Drive, Toronto, Ontario",
-        "PROJECT_TYPE": "",
+        "PROJECT_TYPE": ["N/A"],
         "PROJECT_FOCUS": [
           "Residential"
         ],
@@ -451,7 +451,7 @@
         "CENTROID_COORDS": "(-79.3896418, 43.6548650)",
         "ADDRESS": "250 Dundas Street West, Toronto, Ontario",
         "PROJECT_TYPE": [
-          ""
+          "N/A"
         ],
         "PROJECT_FOCUS": [
           "Mixed Use"
@@ -1232,7 +1232,7 @@
         "MUNICIPALITY": "Toronto ",
         "WARD": 16,
         "USI_TEAM_MEMBERS": [
-          "Melaie Hare",
+          "Melanie Hare",
           "Craig Lametti",
           "Desi Simova",
           "Harshitha Damodaran"
