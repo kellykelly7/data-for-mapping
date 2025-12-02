@@ -1,0 +1,20 @@
+.map-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.description {
+    float: left;
+    width: calc(25% - 30px);
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    overflow: visible; /* does not clip overflow */
+    background: white;
+    border: 3px solid #5B1166;
+    font-size: 16px;
+}
+

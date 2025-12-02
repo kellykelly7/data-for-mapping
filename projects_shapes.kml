@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>projects_shapes</name>
+	<gx:CascadingStyle kml:id="__managed_style_1A952242273B61C4223E">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2.99065</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>802dc0fb</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_20937E05CA3B61C4223E">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.48598</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>802dc0fb</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_2E27FE0B1B3B61C00B68">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.48598</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_06198C429A3B61C4223E">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1A952242273B61C4223E</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_20937E05CA3B61C4223E</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_1103DC93E73B61C00B68">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2.99065</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0954CC349C3B61C00B68">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1103DC93E73B61C00B68</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2E27FE0B1B3B61C00B68</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_28679DA7F43B61BF52AC">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/none_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>5.60748</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1B5F8058F23B61BF52AC">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/none_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.73832</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0044DAA13D3B61BF52AC">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1B5F8058F23B61BF52AC</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_28679DA7F43B61BF52AC</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0A0EA5034E3B61BE7511">
+		<name>125 George Street, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.37132717015284</longitude>
+			<latitude>43.65272347929804</latitude>
+			<altitude>93.2901348472389</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>218.4079191477577</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0044DAA13D3B61BF52AC</styleUrl>
+		<Point>
+			<coordinates>-79.37126802162821,43.65272980132824,93.24665041714866</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F3EE8999C3B61C00B5E">
+		<name>101 Spadina Avenue, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.39511779972483</longitude>
+			<latitude>43.64649332002425</latitude>
+			<altitude>88.61057381597618</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>221.460965245824</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.39500613201666,43.64649781027489,88.61054550603244</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08947B87013B61C0DA13">
+		<name>10 Price Street, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.39026412311009</longitude>
+			<latitude>43.68028360944761</latitude>
+			<altitude>116.1181347922838</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>206.5349852773215</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.39028550722409,43.68029003774738,116.1288803384438</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07A7746B0E3B61C1A288">
+		<name>25 St. Mary Street, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.38710950467244</longitude>
+			<latitude>43.66730834877207</latitude>
+			<altitude>179.0900137472878</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>167.6604726391452</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.38714543624405,43.66731320127946,179.0725645034929</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0280CD78573B61C21CE0">
+		<name>155 Antibes Drive, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.44590991887804</longitude>
+			<latitude>43.78205273274315</latitude>
+			<altitude>227.3544376083259</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>422.3528308742243</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.44588176851975,43.78211011817578,231.5849423777008</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="003890E7813B61C3B831">
+		<name>Downsview Secondary Plan Area</name>
+		<LookAt>
+			<longitude>-79.47376639628298</longitude>
+			<latitude>43.74565711973355</latitude>
+			<altitude>202.4196947133719</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>6144.546243940713</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_06198C429A3B61C4223E</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-79.48415063435168,43.73600152021747,0 -79.47508774914179,43.73729695557052,0 -79.47490297378457,43.74015285728301,0 -79.46692765635404,43.74106022529006,0 -79.4641179864488,43.73878981339402,0 -79.45642911452184,43.73277862231518,0 -79.45002080308399,43.73410481790946,0 -79.45136416277334,43.73923862242915,0 -79.45613103636448,43.74265706579341,0 -79.46342084061808,43.74972852904413,0 -79.4739430066914,43.75576268032579,0 -79.48772476539125,43.7525335106657,0 -79.48415063435168,43.73600152021747,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0C580222563B61C4BC3C">
+		<name>1100 Sheppard Avenue West, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.46628378428642</longitude>
+			<latitude>43.75211664853964</latitude>
+			<altitude>191.1942539254189</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>412.4921066474053</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.46644645538862,43.75179275275123,191.3560521956256</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00692F59B83B61C54A0E">
+		<name>250 Dundas Street West, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.38965029481005</longitude>
+			<latitude>43.65494405543551</latitude>
+			<altitude>118.6750995908967</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>275.825762864115</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.38964182003583,43.65486497883523,123.3659406903875</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0601CBFB8E3B61C64654">
+		<name>75 Hanna Avenue, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.41886950708754</longitude>
+			<latitude>43.6400813750618</latitude>
+			<altitude>81.58800642794874</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>372.0884982466669</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.41894358139363,43.63997930325851,87.37430777220405</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="061300E7233B61C7546E">
+		<name>315 Front Street West, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.38966127320289</longitude>
+			<latitude>43.64348758515155</latitude>
+			<altitude>92.11761942285365</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>589.3757572877803</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.38912297571925,43.64336400141701,156.3472263622903</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BCA9F93583B61C78C39">
+		<name>325 Front Street West, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.38966127320289</longitude>
+			<latitude>43.64348758515155</latitude>
+			<altitude>92.11761942285365</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>589.3757572877803</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.39026699150064,43.64322697779309,99.28314606265715</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DADC1B8C33B61C860E1">
+		<name>2150 Lake Shore Boulevard West, Etobicoke, Ontario</name>
+		<LookAt>
+			<longitude>-79.48006786608427</longitude>
+			<latitude>43.62702238190392</latitude>
+			<altitude>77.90960297094549</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>509.4551300170133</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.47997253290286,43.62677411566063,77.16716073637102</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0343555DE73B61C93690">
+		<name>64 Prince Arthur Avenue, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.39932725269428</longitude>
+			<latitude>43.66921126631839</latitude>
+			<altitude>118.1179590675129</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>187.2577007490145</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.39935838209675,43.66927017698931,118.2816392062885</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E45F7D5F43B61C9A764">
+		<name>7 St. Dennis Drive, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.33627670081091</longitude>
+			<latitude>43.71617833687944</latitude>
+			<altitude>167.8157262153676</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>308.8626262619437</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.33624482179732,43.71609628732408,167.8205557387062</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="010C5ACD283B61CAE821">
+		<name>350 Bloor Street East, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.37871077903193</longitude>
+			<latitude>43.67227593452688</latitude>
+			<altitude>138.5104478647668</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>219.8514663910828</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.37885138952406,43.6722918215405,138.5104673062798</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06E3EA72FA3B61CB95AC">
+		<name>1871 Weston Road, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.51519597681248</longitude>
+			<latitude>43.70009200693347</latitude>
+			<altitude>135.2575414519103</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>240.5206700601411</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.51518715392133,43.70006399052771,139.0695854600266</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F23B3AB363B61CC003E">
+		<name>1879 Weston Road, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.51543625433935</longitude>
+			<latitude>43.70008649153975</latitude>
+			<altitude>131.8686275703877</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>137.2267781358096</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.5154838020853,43.7001041492514,131.7696536686265</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A315A3BE53B61CC6F63">
+		<name>1885 Weston Road, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.51562174034025</longitude>
+			<latitude>43.70005965145845</latitude>
+			<altitude>131.8558851730369</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>100.0526900746627</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.51567862589286,43.70010897869627,131.7507508934073</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="088B6B36C73B61CCD36C">
+		<name>49 Ontario Street, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.36612894246113</longitude>
+			<latitude>43.65317298598656</latitude>
+			<altitude>100.0757582651153</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>176.2149421324466</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.36608755534287,43.65317655923354,100.0544021995703</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02ED2BD9C43B61CD4F74">
+		<name>450 Dufferin Street, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.42992118255688</longitude>
+			<latitude>43.64534221179736</latitude>
+			<altitude>87.52880944441225</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>231.0847680519873</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.42998334512603,43.64529768135527,91.81164542066411</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0913FDCDCA3B61CDCE9C">
+		<name>155 St. Dennis Drive, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.32660634095852</longitude>
+			<latitude>43.7223913445817</latitude>
+			<altitude>111.7073791468963</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>350.7986216443533</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.32674031587062,43.72242425644136,112.0967528640889</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C202001A73B61CE3CFC">
+		<name>486 Front Street West, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.39678223277852</longitude>
+			<latitude>43.64235404750279</latitude>
+			<altitude>114.1187148179083</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>391.1171682554414</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.39683323028459,43.64240094948746,114.1187425775538</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0AAE1C020A3B61CED3B4">
+		<name>40 Carr Hall Road, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.47937797506373</longitude>
+			<latitude>43.75053451485762</latitude>
+			<altitude>195.8712062417656</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1250.655751910963</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.47936882624673,43.74994230445228,196.088125863837</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0542D359813B61CFE911">
+		<name>191 Bay Street, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.37992817345571</longitude>
+			<latitude>43.64772584694428</latitude>
+			<altitude>76.33114518581021</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>205.5588838578842</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.37988109983628,43.64773269146304,76.17675444325617</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="023400198C3B61D05B80">
+		<name>250 The East Mall, Etobicoke, Ontario</name>
+		<LookAt>
+			<longitude>-79.55526973902717</longitude>
+			<latitude>43.63049579092812</latitude>
+			<altitude>134.1773863843644</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>469.5340792349454</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.55529159519971,43.63058257349191,134.3692501189822</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BCDCAACD33B61D0D4EC">
+		<name>1800 Sheppard Avenue East, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.34329851569998</longitude>
+			<latitude>43.77780939336589</latitude>
+			<altitude>179.3454619041547</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>725.9938453092036</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.34323223660309,43.77787756060355,179.5653868547963</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C992EA2AB3B61D163B9">
+		<name>1911 Finch Avenue West, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.51486249993067</longitude>
+			<latitude>43.75671030013606</latitude>
+			<altitude>178.3749949783609</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>587.6900504863444</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.51495337363166,43.75659236806263,178.375083352861</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="081659BD183B61D1D63F">
+		<name>1191 Bathurst Street, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.41480583615466</longitude>
+			<latitude>43.67523447879645</latitude>
+			<altitude>120.0684502582165</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>263.0880495839666</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.41475260208473,43.67515760522283,130.8196393431782</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02A58E05F63B61D27024">
+		<name>259 Lake Shore Boulevard East, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.36220951004893</longitude>
+			<latitude>43.64706381667073</latitude>
+			<altitude>70.23014378159976</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>740.6864963849512</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.36324101273514,43.64661708439238,70.7884409667829</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="021247B8E63B61D2C948">
+		<name>333 Lake Shore Boulevard East, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.35970822838158</longitude>
+			<latitude>43.64684048381327</latitude>
+			<altitude>71.44279596825113</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>591.4056977949077</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.35979215057712,43.64696735086857,73.40101104159936</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06A1DB45933B61D360A4">
+		<name>2200 Yonge Street, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.39845770696272</longitude>
+			<latitude>43.70597281932603</latitude>
+			<altitude>220.1604721870849</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>288.5936533786298</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.39848149620082,43.70601360319435,220.6870824307894</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05827986DD3B61D3FD83">
+		<name>38 Dan Leckie Way, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.39785300448121</longitude>
+			<latitude>43.63719142436563</latitude>
+			<altitude>69.92108443974115</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>503.1403467162455</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.39789282568024,43.63741453420289,90.3199648391443</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BF08AC4F43B61D47608">
+		<name>1070 Eastern Avenue, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.31674057736498</longitude>
+			<latitude>43.66583456660901</latitude>
+			<altitude>71.38074047960063</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>406.0308872738825</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.31680326111226,43.66566866813157,71.42061233763695</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="055F79C7903B61D58349">
+		<name>1575 Queen Street East, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.31783225263466</longitude>
+			<latitude>43.66562091736539</latitude>
+			<altitude>89.48459561738773</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>584.0537632779888</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.31785247325971,43.66561251578968,89.40665304014385</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0060A4E7923B61D5BAA4">
+		<name>1555 Queen Street East, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.31783225263466</longitude>
+			<latitude>43.66562091736539</latitude>
+			<altitude>89.48459561738773</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>584.0537632779888</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.31849750215956,43.66548210180598,94.33796109781511</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07FD716B133B61D641C6">
+		<name>300 Borough Drive, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.25699285527865</longitude>
+			<latitude>43.77858542730766</latitude>
+			<altitude>166.5546857524897</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>224.4724770858375</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.25705319042889,43.77856955081143,166.4740488274183</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00792A9D333B61D6A4F4">
+		<name>900 Dufferin Street, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.43495897569865</longitude>
+			<latitude>43.65805110231952</latitude>
+			<altitude>107.154991662423</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>258.6829614048474</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.43496482935954,43.65802049413671,107.2333206169253</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E1AB50A703B61D75060">
+		<name>2200 Eglinton Avenue East, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.28102219906425</longitude>
+			<latitude>43.72994153185103</latitude>
+			<altitude>167.4284657353187</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>324.0710948114429</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.28086745742009,43.72983663051148,165.6935104990879</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05049526693B61D7D118">
+		<name>175 Elizabeth Street, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.38587987853933</longitude>
+			<latitude>43.65756493421131</latitude>
+			<altitude>133.0617543045222</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>300.3209623922885</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.38576512710503,43.65752523250355,109.7917430593455</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B8B8EF1213B61D9080F">
+		<name>670 Progress Avenue, Toronto, Scarborough, Ontario</name>
+		<LookAt>
+			<longitude>-79.2501296233909</longitude>
+			<latitude>43.77709209644014</latitude>
+			<altitude>160.2728545458001</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>587.827632716144</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.24999831772394,43.77741477693192,160.1395475970724</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05713ECC5F3B61D9732C">
+		<name>690 Progress Avenue, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.24877327092001</longitude>
+			<latitude>43.77811333491367</latitude>
+			<altitude>159.8304886725351</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>587.4162766827068</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.24878306942544,43.77810234121304,159.8305258367632</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DED7159A53B61DA0078">
+		<name>505 Richmond Street West, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.3997410697971</longitude>
+			<latitude>43.64688219875842</latitude>
+			<altitude>131.9138510037051</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>252.6503421986855</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.39943338237141,43.64710640367608,137.7494149193365</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D8FCA1B9B3B61DA9460">
+		<name>581 Bloor Street West, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.41215557363245</longitude>
+			<latitude>43.66477147204329</latitude>
+			<altitude>159.490476457325</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>225.2901364360515</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.41205957890821,43.66468535712018,159.7177955770945</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DCF51BFF83B61DB1DC6">
+		<name>158 Sterling Road, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.44519703971059</longitude>
+			<latitude>43.65454130039092</latitude>
+			<altitude>161.4539651050709</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>265.8493824164907</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.44520166418054,43.65461263760847,152.1385180399215</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="046B74D3FF3B61DBFD2F">
+		<name>844 Don Mills Road, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.34065462385747</longitude>
+			<latitude>43.72317248437955</latitude>
+			<altitude>128.334647417325</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>590.6689282664593</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.34071751017936,43.72322534416656,128.997682740976</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0AF8F254F43B61DC8BC0">
+		<name>1245 Dupont Street, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.44094049996617</longitude>
+			<latitude>43.66762220003336</latitude>
+			<altitude>120.6091569483767</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>588.5197621882253</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.44107008559699,43.66773607010352,120.8576499156603</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00F849A3903B61DE0BE0">
+		<name>3401 Dufferin Street, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.45265972596903</longitude>
+			<latitude>43.72584201345633</latitude>
+			<altitude>187.0875262423714</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1616.105768504203</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.45290834527083,43.72545647458301,194.5042504874385</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BF87878173B61F82D3E">
+		<name>CIBC Square (81-141 Bay Street, Toronto, Ontario)</name>
+		<LookAt>
+			<longitude>-79.37793144367119</longitude>
+			<latitude>43.64512227142658</latitude>
+			<altitude>88.76230992837112</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>903.8474784827849</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-79.37900921929129,43.64590176685792,0 -79.37784190733436,43.64339129981917,0 -79.37607031185748,43.64427429390892,0 -79.37696616230156,43.64652418753551,0 -79.37900921929129,43.64590176685792,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="024287919D3B61F8C4AF">
+		<name>571 Dundas Street West, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.40012284094236</longitude>
+			<latitude>43.65229275353691</latitude>
+			<altitude>89.84683548989942</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>283.1655523189693</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.40010770190538,43.6521783210921,98.78352364645521</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B8785986A3B61F93BDE">
+		<name>689 The Queensway, Etobicoke, Ontario</name>
+		<LookAt>
+			<longitude>-79.50005429061267</longitude>
+			<latitude>43.6267563572937</latitude>
+			<altitude>97.09056799706276</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>228.0176763287091</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.49997892083131,43.62671553385595,97.05858314336328</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04515D24CF3B61F9B269">
+		<name>41 Fraser Avenue, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.4235610914282</longitude>
+			<latitude>43.63693971380086</latitude>
+			<altitude>88.49969492788624</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>323.2014249282656</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.42352396657084,43.6369546438989,89.02355643477625</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DE03A8DDC3B61FA318E">
+		<name>25 The West Mall, Etobicoke, Ontario</name>
+		<LookAt>
+			<longitude>-79.55736449454533</longitude>
+			<latitude>43.61219157849573</latitude>
+			<altitude>118.0528584604766</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1033.236797750287</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.55714236243936,43.61182160615708,126.343262326142</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03BA3477EA3B61FA9B40">
+		<name>2863 Ellesmere Road, Scarborough, Ontario</name>
+		<LookAt>
+			<longitude>-79.20520716886899</longitude>
+			<latitude>43.78051850638269</latitude>
+			<altitude>153.3455692671696</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>692.1859790686722</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.20519076748494,43.78013036165645,197.7993564420258</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="053D5E97233B61FB0924">
+		<name>50 Merton Street, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.39449247792049</longitude>
+			<latitude>43.69671802137604</latitude>
+			<altitude>156.677536166191</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>264.7201929532821</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.39457574175778,43.6967895132797,158.1211496688179</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05027955DE3B61FC5E40">
+		<name>2939 Bloor Street West, Toronto, Ontario</name>
+		<LookAt>
+			<longitude>-79.50741394301615</longitude>
+			<latitude>43.64801546090617</latitude>
+			<altitude>118.3552940563838</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>588.1017310061726</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0954CC349C3B61C00B68</styleUrl>
+		<Point>
+			<coordinates>-79.50737092214185,43.64797388676277,118.445824033612</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

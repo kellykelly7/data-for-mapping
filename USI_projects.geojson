@@ -1,0 +1,3735 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.371268,
+          43.6527298
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "19052",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "125 George Street ",
+        "CLIENT NAME": [
+          "DiamondCorp",
+          "Alterra GoC"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.3712680, 43.6527298)",
+        "ADDRESS": "125 George Street, Toronto, Ontario",
+        "PROJECT TYPE": [
+          ""
+        ],
+        "PROJECT FOCUS": [
+          "Residential",
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 13,
+        "USI TEAM MEMBERS": [
+          ""
+        ],
+        "PRINCIPAL IN CHARGE": "",
+        "PROJECT MANAGER": "",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2022",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "516",
+        "AFFORDABLE UNITS (%)": "1.36",
+        "AFFORDABLE UNITS": "7",
+        "MAX. NON-RESIDENTIAL GFA": "5500",
+        "MIN. NON-RESIDENTIAL GFA": "2000",
+        "DENSITY": "10.6",
+        "HEIGHT (METERS)": "136",
+        "HEIGHT (STOREYS)": "39",
+        "SITE AREA (M2)": "3697",
+        "BY-LAW NUMBER(S)": [
+          "102-2022",
+          "103-2022"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2021/te/bgrd/backgroundfile-170052.pdf",
+        "NOTES": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3950061,
+          43.6464978
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "21009",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "101 Spadina",
+        "CLIENT NAME": [
+          "Devron"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.3950061, 43.6464978)",
+        "ADDRESS": "101 Spadina Avenue, Toronto, Ontario",
+        "PROJECT TYPE": [
+          ""
+        ],
+        "PROJECT FOCUS": [
+          "Residential"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 10,
+        "USI TEAM MEMBERS": [
+          "Peter Pantalone",
+          "Leigh McGrath"
+        ],
+        "PRINCIPAL IN CHARGE": "Leigh McGrath",
+        "PROJECT MANAGER": "Peter Pantalone",
+        "PROJECT START YEAR": "2021",
+        "PROJECT END YEAR": "2025",
+        "APPROVAL YEAR": "2025",
+        "APPROVAL TYPE(S)": [
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "452",
+        "AFFORDABLE UNITS (%)": "0",
+        "AFFORDABLE UNITS": "0",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "120",
+        "DENSITY": "16.1",
+        "HEIGHT (METERS)": "167",
+        "HEIGHT (STOREYS)": "50",
+        "SITE AREA (M2)": "2178",
+        "BY-LAW NUMBER(S)": [
+          "757-2025"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2025/te/bgrd/backgroundfile-256504.pdf",
+        "NOTES": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3902855,
+          43.68029
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "16099",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "10 Price Street (Scrivener Square)",
+        "CLIENT NAME": [
+          "Tricon Capital Group",
+          "Diamond Corp"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.3902855, 43.6802900)",
+        "ADDRESS": "10 Price Street, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Development Approvals",
+          "Planning Analysis",
+          "Urban Design"
+        ],
+        "PROJECT FOCUS": [
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 11,
+        "USI TEAM MEMBERS": [
+          "Cyndi Rottenberg-Walker",
+          "Leigh McGrath",
+          "Josh Kohler"
+        ],
+        "PRINCIPAL IN CHARGE": "Leigh McGrath",
+        "PROJECT MANAGER": "Anne Benaroya",
+        "PROJECT START YEAR": "2016",
+        "PROJECT END YEAR": "2021",
+        "APPROVAL YEAR": "2021",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "127",
+        "AFFORDABLE UNITS (%)": "0",
+        "AFFORDABLE UNITS": "0",
+        "MAX. NON-RESIDENTIAL GFA": "3300",
+        "MIN. NON-RESIDENTIAL GFA": "N/A",
+        "DENSITY": "",
+        "HEIGHT (METERS)": "85.4",
+        "HEIGHT (STOREYS)": "21",
+        "SITE AREA (M2)": "4450",
+        "BY-LAW NUMBER(S)": [
+          "267-2021"
+        ],
+        "MOST RECENT REPORT": "https://www.omb.gov.on.ca/e-decisions/pl171410-Nov-28-2019.pdf",
+        "NOTES": "USI site says 21 storey building, proposal from 2018 but not publicly available"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3871454,
+          43.6673132
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "20043",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "St Mary",
+        "CLIENT NAME": [
+          "Tenblock"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.3871454, 43.6673132)",
+        "ADDRESS": "25 St. Mary Street, Toronto, Ontario",
+        "PROJECT TYPE": [
+          ""
+        ],
+        "PROJECT FOCUS": [
+          "Residential"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 13,
+        "USI TEAM MEMBERS": [
+          ""
+        ],
+        "PRINCIPAL IN CHARGE": "",
+        "PROJECT MANAGER": "",
+        "PROJECT START YEAR": "N/A ",
+        "PROJECT END YEAR": "2023",
+        "APPROVAL YEAR": "2023",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA",
+          "Rental Housing Demolition"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "1024",
+        "AFFORDABLE UNITS (%)": "4.88",
+        "AFFORDABLE UNITS": "50",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "1010",
+        "DENSITY": "15.42",
+        "HEIGHT (METERS)": "204 (w) and 194 (e)",
+        "HEIGHT (STOREYS)": "59 (w) and 54 (e)",
+        "SITE AREA (M2)": "5212",
+        "BY-LAW NUMBER(S)": [
+          "595-2023",
+          "596-2023"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2023/te/bgrd/backgroundfile-235679.pdf",
+        "NOTES": "Projected to set up at least 50 net new replacement affordable rental housing --  think its minimum 16 but im not sure (its in the report)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4458818,
+          43.7821101
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "20061",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "155 Antibes",
+        "CLIENT NAME": [
+          "Tenblock"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.4458818, 43.7821101)",
+        "ADDRESS": "155 Antibes Drive, Toronto, Ontario",
+        "PROJECT TYPE": "",
+        "PROJECT FOCUS": [
+          "Residential"
+        ],
+        "MUNICIPALITY": [
+          "Toronto"
+        ],
+        "WARD": 6,
+        "USI TEAM MEMBERS": [
+          "Emily Reisman",
+          "Christine Fang-Denissov"
+        ],
+        "PRINCIPAL IN CHARGE": "",
+        "PROJECT MANAGER": "",
+        "PROJECT START YEAR": "N/A ",
+        "PROJECT END YEAR": "2024",
+        "APPROVAL YEAR": "2024",
+        "APPROVAL TYPE(S)": [
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "1151",
+        "AFFORDABLE UNITS (%)": "0",
+        "AFFORDABLE UNITS": "0",
+        "MAX. NON-RESIDENTIAL GFA": "900",
+        "MIN. NON-RESIDENTIAL GFA": "N/A",
+        "DENSITY": "4.46",
+        "HEIGHT (METERS)": "115 (a), 103 (b), 35 (c), 50 (d)",
+        "HEIGHT (STOREYS)": "36 (a), 32 (b), 8 (c)",
+        "SITE AREA (M2)": "19014",
+        "BY-LAW NUMBER(S)": [
+          "879-2024"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2024/ny/bgrd/backgroundfile-247199.pdf",
+        "NOTES": "no affordable housing mentions anywhere? also need to confirm if building d is the old building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4723534,
+          43.7464712
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "18000",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Downsivew Secondary Plan",
+        "CLIENT NAME": [
+          "Northcrest Developments",
+          "Canada Lands Company"
+        ],
+        "CLIENT TYPE": [
+          "Federal Crown Corporation"
+        ],
+        "CENTROID COORDINATES": "(-79.4723534, 43.7464712)",
+        "ADDRESS": "Downsview Area",
+        "PROJECT TYPE": [
+          "Master Planning"
+        ],
+        "PROJECT FOCUS": [
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 6,
+        "USI TEAM MEMBERS": [
+          "Michel Trocme",
+          "Frank Lewinberg",
+          "Emily Reisman",
+          "Christine Fang-Denissov",
+          "Lauren Haein An",
+          "Andrew Toth",
+          "Harshitha Damodaran",
+          "Aya Almaddah",
+          "Mona Han",
+          "Ning Lin",
+          "Samuel Lozeau"
+        ],
+        "PRINCIPAL IN CHARGE": "",
+        "PROJECT MANAGER": "",
+        "PROJECT START YEAR": "2018",
+        "PROJECT END YEAR": "Ongoing",
+        "APPROVAL YEAR": "2024",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "",
+        "MAX. NON-RESIDENTIAL GFA": "",
+        "MIN. NON-RESIDENTIAL GFA": "",
+        "DENSITY": "",
+        "HEIGHT (METERS)": "",
+        "HEIGHT (STOREYS)": "",
+        "SITE AREA (M2)": "",
+        "BY-LAW NUMBER(S)": [
+          "707-2024"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2024/ph/bgrd/backgroundfile-245473.pdf",
+        "NOTES": "how to represent entire area for this ??"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4664465,
+          43.7517928
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "05037-5 ",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "1100 Sheppard Avenue West",
+        "CLIENT NAME": [
+          "CentreCourt"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.4664465, 43.7517928)",
+        "ADDRESS": "1100 Sheppard Avenue, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Master Planning"
+        ],
+        "PROJECT FOCUS": [
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 6,
+        "USI TEAM MEMBERS": [
+          "Emily Reisman"
+        ],
+        "PRINCIPAL IN CHARGE": "",
+        "PROJECT MANAGER": "",
+        "PROJECT START YEAR": "N/A ",
+        "PROJECT END YEAR": "2020",
+        "APPROVAL YEAR": "2020",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "392",
+        "AFFORDABLE UNITS (%)": "0",
+        "AFFORDABLE UNITS": "0",
+        "MAX. NON-RESIDENTIAL GFA": "0",
+        "MIN. NON-RESIDENTIAL GFA": "0",
+        "DENSITY": "3.4",
+        "HEIGHT (METERS)": "45.7",
+        "HEIGHT (STOREYS)": "14",
+        "SITE AREA (M2)": "4058",
+        "BY-LAW NUMBER(S)": [
+          "520-2020",
+          "521-2020"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2020/ny/bgrd/backgroundfile-147617.pdf",
+        "NOTES": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3896418,
+          43.654865
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "17089",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "250 Dundas (two ZBA applications)",
+        "CLIENT NAME": [
+          "Dream Unlimited"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.3896418, 43.6548650)",
+        "ADDRESS": "250 Dundas Street West, Toronto, Ontario",
+        "PROJECT TYPE": [
+          ""
+        ],
+        "PROJECT FOCUS": [
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 11,
+        "USI TEAM MEMBERS": [
+          "Benjamin Hoff",
+          "Inger Squires"
+        ],
+        "PRINCIPAL IN CHARGE": "Inger Squires",
+        "PROJECT MANAGER": "Kiera McMaster",
+        "PROJECT START YEAR": "N/A ",
+        "PROJECT END YEAR": "Ongoing",
+        "APPROVAL YEAR": "2025",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "719",
+        "AFFORDABLE UNITS (%)": "2.64",
+        "AFFORDABLE UNITS": "19",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "250",
+        "DENSITY": "19.12",
+        "HEIGHT (METERS)": "188.25",
+        "HEIGHT (STOREYS)": "57",
+        "SITE AREA (M2)": "2339",
+        "BY-LAW NUMBER(S)": "not updated yet -- has been approved",
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2025/te/bgrd/backgroundfile-252997.pdf",
+        "NOTES": "by-law has not been published, but it has been approved already in linked report"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4189436,
+          43.6399793
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "20012",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "75 Hanna/Liberty Yards",
+        "CLIENT NAME": [
+          "First Capital Realty (FCR)"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.4189436, 43.6399793)",
+        "ADDRESS": "75 Hanna Avenue, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 10,
+        "USI TEAM MEMBERS": [
+          "Cyndi Rottenberg-Walker",
+          "Inger Squires",
+          "Michel Trocme",
+          "Anne Benaroya"
+        ],
+        "PRINCIPAL IN CHARGE": "Inger Squires",
+        "PROJECT MANAGER": "Samantha Anderson",
+        "PROJECT START YEAR": "2020",
+        "PROJECT END YEAR": "2024",
+        "APPROVAL YEAR": "2023",
+        "APPROVAL TYPE(S)": [
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "963",
+        "AFFORDABLE UNITS (%)": "3.01",
+        "AFFORDABLE UNITS": "29",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "N/A",
+        "DENSITY": "6.85",
+        "HEIGHT (METERS)": "17.7 + 113.25 (w) and 125 (e)",
+        "HEIGHT (STOREYS)": "3 + 32(w) and 36 (e)",
+        "SITE AREA (M2)": "12129",
+        "BY-LAW NUMBER(S)": [
+          "873-2024"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2023/te/bgrd/backgroundfile-237340.pdf",
+        "NOTES": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.389123,
+          43.643364
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "19001",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Union Park (315-325 Front St W)",
+        "CLIENT NAME": [
+          "Oxford Properties Group"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.3891230, 43.6433640)",
+        "ADDRESS": "315 Front Street West, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          "Residential",
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 10,
+        "USI TEAM MEMBERS": [
+          "Cyndi Rottenberg-Walker"
+        ],
+        "PRINCIPAL IN CHARGE": "Josh Neubauer",
+        "PROJECT MANAGER": "Matthew Whittier",
+        "PROJECT START YEAR": "2019",
+        "PROJECT END YEAR": "Ongoing",
+        "APPROVAL YEAR": "2025",
+        "APPROVAL TYPE(S)": [
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "1793",
+        "AFFORDABLE UNITS (%)": "2.67",
+        "AFFORDABLE UNITS": "48",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "N/A",
+        "DENSITY": "17.7",
+        "HEIGHT (METERS)": "168, 168, 235, 278",
+        "HEIGHT (STOREYS)": "50 (r1), 50 (r2), 71 (r3), 60 (o)",
+        "SITE AREA (M2)": "16393",
+        "BY-LAW NUMBER(S)": "not updated yet -- has been approved",
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2025/te/bgrd/backgroundfile-254256.pdf",
+        "NOTES": "consider making this a multipoint or multipolygon data point"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.390267,
+          43.643227
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "19001",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Union Park (315-325 Front St W) (two ZBA applications)\u00c2\u00a0",
+        "CLIENT NAME": [
+          "Oxford Properties Group"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.3902670, 43.6432270)",
+        "ADDRESS": "325 Front Street West, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          "Residential",
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 10,
+        "USI TEAM MEMBERS": [
+          "Cyndi Rottenberg-Walker"
+        ],
+        "PRINCIPAL IN CHARGE": "Josh Neubauer",
+        "PROJECT MANAGER": "Matthew Whittier",
+        "PROJECT START YEAR": "2019",
+        "PROJECT END YEAR": "Ongoing",
+        "APPROVAL YEAR": "2025",
+        "APPROVAL TYPE(S)": [
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "1793",
+        "AFFORDABLE UNITS (%)": "2.67",
+        "AFFORDABLE UNITS": "48",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "N/A",
+        "DENSITY": "17.7",
+        "HEIGHT (METERS)": "168, 168, 235, 278",
+        "HEIGHT (STOREYS)": "50 (r1), 50 (r2), 71 (r3), 60 (o)",
+        "SITE AREA (M2)": "16393",
+        "BY-LAW NUMBER(S)": "not updated yet -- has been approved",
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2025/te/bgrd/backgroundfile-254256.pdf",
+        "NOTES": "consider making this a multipoint or multipolygon data point"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4799725,
+          43.6267741
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "14081",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "2150 Lakeshore - Christie Cookies Site",
+        "CLIENT NAME": [
+          "First Capital Realty (FCR)",
+          "Pemberton",
+          "Lakeshore Development Inc"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.4799725, 43.6267741)",
+        "ADDRESS": "2150 Lakeshore Boulevard West, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Development Approvals",
+          "Planning Analysis",
+          "Due Diligence Study"
+        ],
+        "PROJECT FOCUS": [
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 3,
+        "USI TEAM MEMBERS": [
+          "Cyndi Rottenberg-Walker",
+          "Josh Kohler",
+          "Michel Trocme",
+          "Yiwen Zhu",
+          "Lauren Haein An",
+          "Aya Almaddah"
+        ],
+        "PRINCIPAL IN CHARGE": "Cyndi Rottenberg-Walker",
+        "PROJECT MANAGER": "Josh Kohler",
+        "PROJECT START YEAR": "2014",
+        "PROJECT END YEAR": "Ongoing",
+        "APPROVAL YEAR": "2021",
+        "APPROVAL TYPE(S)": [
+          "Secondary Plan",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete ?",
+        "RESIDENTIAL UNITS": "",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "",
+        "MAX. NON-RESIDENTIAL GFA": "",
+        "MIN. NON-RESIDENTIAL GFA": "",
+        "DENSITY": "",
+        "HEIGHT (METERS)": "",
+        "HEIGHT (STOREYS)": "15 new towers 28-70",
+        "SITE AREA (M2)": "",
+        "BY-LAW NUMBER(S)": "only report, no bylaw ? ",
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2021/ph/bgrd/backgroundfile-165672.pdf",
+        "NOTES": "no concrete numbers for affordable housing, estimated to go up to 1500 affordable housing units"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3993584,
+          43.6692702
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "archived",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "64 Prince Arthur Avenue",
+        "CLIENT NAME": [
+          "64 Prince Arthur Limited Partnership"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.3993584, 43.6692702)",
+        "ADDRESS": "64 Prince Arthur Avenue, Toronto, Ontario",
+        "PROJECT TYPE": [
+          ""
+        ],
+        "PROJECT FOCUS": [
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 11,
+        "USI TEAM MEMBERS": [
+          ""
+        ],
+        "PRINCIPAL IN CHARGE": "",
+        "PROJECT MANAGER": "",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2023",
+        "APPROVAL TYPE(S)": [
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "94",
+        "AFFORDABLE UNITS (%)": "0",
+        "AFFORDABLE UNITS": "0",
+        "MAX. NON-RESIDENTIAL GFA": "36",
+        "MIN. NON-RESIDENTIAL GFA": "",
+        "DENSITY": "5.47",
+        "HEIGHT (METERS)": "43",
+        "HEIGHT (STOREYS)": "13",
+        "SITE AREA (M2)": "1211",
+        "BY-LAW NUMBER(S)": [
+          "1144-2023"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2023/te/bgrd/backgroundfile-240091.pdf",
+        "NOTES": "no site, radio silence since 2023, who worked on this project there have been additional applications since 2023??"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3362448,
+          43.7160963
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "22005",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": " OGDC St Dennis",
+        "CLIENT NAME": [
+          "Osmington Gerofsky Development Corp (OGDC)"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.3362448, 43.7160963)",
+        "ADDRESS": "7 St Dennis Drive, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Development Approvals",
+          "Planning Analysis"
+        ],
+        "PROJECT FOCUS": [
+          "Residential"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 16,
+        "USI TEAM MEMBERS": [
+          "Benjamin Hoff"
+        ],
+        "PRINCIPAL IN CHARGE": "Benjamin Hoff",
+        "PROJECT MANAGER": "Lauren Haein An",
+        "PROJECT START YEAR": "2022",
+        "PROJECT END YEAR": "2025",
+        "APPROVAL YEAR": "2024",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "2536",
+        "AFFORDABLE UNITS (%)": "0",
+        "AFFORDABLE UNITS": "0",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "N/A",
+        "DENSITY": "7.87",
+        "HEIGHT (METERS)": "174 (a), 162 (b), 135 (c), 153 (d)",
+        "HEIGHT (STOREYS)": "53, 49, 40, 46",
+        "SITE AREA (M2)": "38807",
+        "BY-LAW NUMBER(S)": [
+          "49-2025",
+          "50-2025"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2024/ny/bgrd/backgroundfile-248757.pdf",
+        "NOTES": "done !!"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3788514,
+          43.6722918
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "22013",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "OGDC 350 Bloor East ",
+        "CLIENT NAME": [
+          "Osmington Gerofsky Development Corp (OGDC)"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.3788514, 43.6722918)",
+        "ADDRESS": "350 Bloor Street East, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Development Approvals",
+          "Planning Analysis"
+        ],
+        "PROJECT FOCUS": [
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 11,
+        "USI TEAM MEMBERS": "",
+        "PRINCIPAL IN CHARGE": "",
+        "PROJECT MANAGER": "",
+        "PROJECT START YEAR": "2021",
+        "PROJECT END YEAR": "2025",
+        "APPROVAL YEAR": "2024",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "806",
+        "AFFORDABLE UNITS (%)": "1.98",
+        "AFFORDABLE UNITS": "16",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "400",
+        "DENSITY": "19.41",
+        "HEIGHT (METERS)": "215",
+        "HEIGHT (STOREYS)": "63",
+        "SITE AREA (M2)": "2530",
+        "BY-LAW NUMBER(S)": [
+          "599-2025",
+          "600-2025"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2024/te/bgrd/backgroundfile-244123.pdf",
+        "NOTES": "do we want owner or applicant ? or whos website it was obtained from since it says Rogers Communication Inc owns the lot i think"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5151872,
+          43.700064
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "21060",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Weston Park",
+        "CLIENT NAME": [
+          "Castlepoint Weston Partnership"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.5151872, 43.7000640)",
+        "ADDRESS": "1871 Weston Road, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Development Approvals",
+          "Community Engagement"
+        ],
+        "PROJECT FOCUS": [
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 5,
+        "USI TEAM MEMBERS": [
+          "Benjamin Hoff",
+          "Josh Reiniger"
+        ],
+        "PRINCIPAL IN CHARGE": "Benjamin Hoff",
+        "PROJECT MANAGER": "Stuart Dow?",
+        "PROJECT START YEAR": "2021",
+        "PROJECT END YEAR": "2023",
+        "APPROVAL YEAR": "2023",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "1032",
+        "AFFORDABLE UNITS (%)": "0",
+        "AFFORDABLE UNITS": "0",
+        "MAX. NON-RESIDENTIAL GFA": "5300",
+        "MIN. NON-RESIDENTIAL GFA": "4800",
+        "DENSITY": "15.01",
+        "HEIGHT (METERS)": "174 (a), 157 (b), and 14 (c)",
+        "HEIGHT (STOREYS)": "50 (a), 46 (b), and 1 (c)",
+        "SITE AREA (M2)": "4447",
+        "BY-LAW NUMBER(S)": [
+          "1253-2023",
+          "1254-2023"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2023/ey/bgrd/backgroundfile-240542.pdf",
+        "NOTES": "some measurements are not quite up to par with the rest of the data, like the 2 storeys of mechanical stuff -- whats the exact height? "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5154838,
+          43.7001041
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "21060",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Weston Park",
+        "CLIENT NAME": [
+          "Castlepoint Weston Partnership"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.5154838, 43.7001041)",
+        "ADDRESS": "1879 Weston Road, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Development Approvals",
+          "Community Engagement"
+        ],
+        "PROJECT FOCUS": [
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto ",
+        "WARD": 5,
+        "USI TEAM MEMBERS": [
+          "Benjamin Hoff",
+          "Josh Reiniger"
+        ],
+        "PRINCIPAL IN CHARGE": "Benjamin Hoff",
+        "PROJECT MANAGER": "Stuart Dow?",
+        "PROJECT START YEAR": "2021",
+        "PROJECT END YEAR": "2023",
+        "APPROVAL YEAR": "2023",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "1032",
+        "AFFORDABLE UNITS (%)": "0",
+        "AFFORDABLE UNITS": "0",
+        "MAX. NON-RESIDENTIAL GFA": "5300",
+        "MIN. NON-RESIDENTIAL GFA": "4800",
+        "DENSITY": "15.01",
+        "HEIGHT (METERS)": "174 (a), 157 (b), and 14 (c)",
+        "HEIGHT (STOREYS)": "50 (a), 46 (b), and 1 (c)",
+        "SITE AREA (M2)": "4447",
+        "BY-LAW NUMBER(S)": [
+          "1253-2023",
+          "1254-2023"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2023/ey/bgrd/backgroundfile-240542.pdf",
+        "NOTES": "some measurements are not quite up to par with the rest of the data, like the 2 storeys of mechanical stuff -- whats the exact height? "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5156786,
+          43.700109
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "21060",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Weston Park",
+        "CLIENT NAME": [
+          "Castlepoint Weston Partnership"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.5156786, 43.7001090)",
+        "ADDRESS": "1885 Weston Road, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Development Approvals",
+          "Community Engagement"
+        ],
+        "PROJECT FOCUS": [
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto ",
+        "WARD": 5,
+        "USI TEAM MEMBERS": [
+          "Benjamin Hoff, Josh Reiniger"
+        ],
+        "PRINCIPAL IN CHARGE": "Benjamin Hoff",
+        "PROJECT MANAGER": "Stuart Dow?",
+        "PROJECT START YEAR": "2021",
+        "PROJECT END YEAR": "2023",
+        "APPROVAL YEAR": "2023",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "1032",
+        "AFFORDABLE UNITS (%)": "0",
+        "AFFORDABLE UNITS": "0",
+        "MAX. NON-RESIDENTIAL GFA": "5300",
+        "MIN. NON-RESIDENTIAL GFA": "4800",
+        "DENSITY": "15.01",
+        "HEIGHT (METERS)": "174 (a), 157 (b), and 14 (c)",
+        "HEIGHT (STOREYS)": "50 (a), 46 (b), and 1 (c)",
+        "SITE AREA (M2)": "4447",
+        "BY-LAW NUMBER(S)": [
+          "1253-2023",
+          "1254-2023"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2023/ey/bgrd/backgroundfile-240542.pdf",
+        "NOTES": "some measurements are not quite up to par with the rest of the data, like the 2 storeys of mechanical stuff -- whats the exact height? "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3660876,
+          43.6531766
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "18003",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Dream 49 Ontario",
+        "CLIENT NAME": [
+          "Dream Unlimited Corp",
+          "CentreCourt"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.3660876, 43.6531766)",
+        "ADDRESS": "49 Ontario Street, Toronto, Ontario",
+        "PROJECT TYPE": [
+          ""
+        ],
+        "PROJECT FOCUS": [
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto ",
+        "WARD": 13,
+        "USI TEAM MEMBERS": [
+          "Benjamin Hoff"
+        ],
+        "PRINCIPAL IN CHARGE": "Benjamin Hoff",
+        "PROJECT MANAGER": "Benjamin Hoff",
+        "PROJECT START YEAR": "N/A ",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2023",
+        "APPROVAL TYPE(S)": [
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "1094",
+        "AFFORDABLE UNITS (%)": "0",
+        "AFFORDABLE UNITS": "0",
+        "MAX. NON-RESIDENTIAL GFA": "17000",
+        "MIN. NON-RESIDENTIAL GFA": "6350",
+        "DENSITY": "11.6",
+        "HEIGHT (METERS)": "153, 140.5, 44.2",
+        "HEIGHT (STOREYS)": "44, 39, 11",
+        "SITE AREA (M2)": "6953",
+        "BY-LAW NUMBER(S)": [
+          "1299-2023"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2023/te/bgrd/backgroundfile-235313.pdf",
+        "NOTES": "find out who is working on this and specific measurments (density, height, site area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4299833,
+          43.6452977
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "20056",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Hullmark 450 Dufferin",
+        "CLIENT NAME": [
+          "Hullmark"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.4299833, 43.6452977)",
+        "ADDRESS": "450 Dufferin Street, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto ",
+        "WARD": 9,
+        "USI TEAM MEMBERS": [
+          "Josh Neubauer",
+          "Julian Del Bel Belluz"
+        ],
+        "PRINCIPAL IN CHARGE": "Josh Neubauer",
+        "PROJECT MANAGER": "Julian Del Bel Belluz",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2025",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "175",
+        "AFFORDABLE UNITS (%)": "3.42",
+        "AFFORDABLE UNITS": "6",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "364",
+        "DENSITY": "8.4",
+        "HEIGHT (METERS)": "67",
+        "HEIGHT (STOREYS)": "18",
+        "SITE AREA (M2)": "1495",
+        "BY-LAW NUMBER(S)": [
+          "221-2025",
+          "254-2025"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2025/te/bgrd/backgroundfile-251761.pdf",
+        "NOTES": "done !!"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3267403,
+          43.7224243
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "22023",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Don Valley ReConnects",
+        "CLIENT NAME": [
+          "Tercot Communities"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.3267403, 43.7224243)",
+        "ADDRESS": "155 St. Dennis Drive, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          "Residential",
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto ",
+        "WARD": 16,
+        "USI TEAM MEMBERS": [
+          "Melaie Hare",
+          "Craig Lametti",
+          "Desi Simova",
+          "Harshitha Damodaran"
+        ],
+        "PRINCIPAL IN CHARGE": "Melanie Hare",
+        "PROJECT MANAGER": "Harshitha Damodaran",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2025",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Pending",
+        "RESIDENTIAL UNITS": "",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "",
+        "MAX. NON-RESIDENTIAL GFA": "",
+        "MIN. NON-RESIDENTIAL GFA": "",
+        "DENSITY": "",
+        "HEIGHT (METERS)": "",
+        "HEIGHT (STOREYS)": "",
+        "SITE AREA (M2)": "",
+        "BY-LAW NUMBER(S)": [
+          "OLT-23-001278"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2024/cc/bgrd/backgroundfile-248186.pdf",
+        "NOTES": "went through OLT and approved? but City Council is appealing the process (2025/11/04)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3968332,
+          43.6424009
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "13012",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "The Well",
+        "CLIENT NAME": [
+          "RioCan",
+          "Allied Properties REIT"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.3968332, 43.6424009)",
+        "ADDRESS": "486 Front Street West, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          "Commercial",
+          "Residential",
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 10,
+        "USI TEAM MEMBERS": [
+          "Dennis Lago",
+          "Geoff Whittager",
+          "Frank Lewinberg"
+        ],
+        "PRINCIPAL IN CHARGE": "",
+        "PROJECT MANAGER": "",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2017",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "1537",
+        "AFFORDABLE UNITS (%)": "0",
+        "AFFORDABLE UNITS": "0",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "65000",
+        "DENSITY": "9.5",
+        "HEIGHT (METERS)": "168, 156.4, 135.4, 80.4, 61.9, 61.9, 55.3",
+        "HEIGHT (STOREYS)": "36, 45, 38, 21, 15, 15, 13",
+        "SITE AREA (M2)": "31051",
+        "BY-LAW NUMBER(S)": [
+          "124-2017",
+          "125-2017"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2016/te/bgrd/backgroundfile-98210.pdf",
+        "NOTES": "centroid of area ? get polygon from somewhere or digitze it"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4793688,
+          43.7499423
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "18000-10",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Downsview West District",
+        "CLIENT NAME": [
+          "Canada Lands Company"
+        ],
+        "CLIENT TYPE": [
+          "Federal Crown Corporation"
+        ],
+        "CENTROID COORDINATES": "(-79.4793688, 43.7499423)",
+        "ADDRESS": "40 Carl Hall Road, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          "Residential",
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 6,
+        "USI TEAM MEMBERS": [
+          "Michel Trocme",
+          "Emily Reisman",
+          "Dennis Lago",
+          "Samuel Lozeau",
+          "Mona Han",
+          "Samantha Anderson",
+          "Harshitha Damodaran"
+        ],
+        "PRINCIPAL IN CHARGE": "Emily Reisman",
+        "PROJECT MANAGER": "Samantha Anderson",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "",
+        "APPROVAL TYPE(S)": "",
+        "APPROVAL STATUS": "",
+        "RESIDENTIAL UNITS": "",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "",
+        "MAX. NON-RESIDENTIAL GFA": "",
+        "MIN. NON-RESIDENTIAL GFA": "",
+        "DENSITY": "",
+        "HEIGHT (METERS)": "",
+        "HEIGHT (STOREYS)": "",
+        "SITE AREA (M2)": "",
+        "BY-LAW NUMBER(S)": [
+          "N/A"
+        ],
+        "MOST RECENT REPORT": "N/A",
+        "NOTES": "still IPR for approval, nothing concrete yet -- may also use 1377 Sheppard as location for by-law or reports"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3798811,
+          43.6477327
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "17050",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Commerce Court 191 Bay",
+        "CLIENT NAME": [
+          "QuadReal Property Group"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.3798811, 43.6477327)",
+        "ADDRESS": "191 Bay Street, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Master Planning"
+        ],
+        "PROJECT FOCUS": [
+          "Commercial",
+          "Residential",
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 13,
+        "USI TEAM MEMBERS": [
+          "Frank Lewinberg",
+          "Christine Fang-Denissov"
+        ],
+        "PRINCIPAL IN CHARGE": "Christine Fang Denissov",
+        "PROJECT MANAGER": "Kiera McMaster",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2019",
+        "APPROVAL TYPE(S)": [
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "N/A",
+        "AFFORDABLE UNITS (%)": "N/A",
+        "AFFORDABLE UNITS": "N/A",
+        "MAX. NON-RESIDENTIAL GFA": "80000",
+        "MIN. NON-RESIDENTIAL GFA": "N/A",
+        "DENSITY": "",
+        "HEIGHT (METERS)": "286 and 24",
+        "HEIGHT (STOREYS)": "65 and 3",
+        "SITE AREA (M2)": "",
+        "BY-LAW NUMBER(S)": [
+          "1626-2019",
+          "1627-2019"
+        ],
+        "MOST RECENT REPORT": "https://secure.toronto.ca/council/agenda-item.do?item=2019.MM12.17",
+        "NOTES": "find site specific infomation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5552916,
+          43.6305826
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "18078",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Cloverdale Mall Master Plan",
+        "CLIENT NAME": [
+          "QuadReal Property Group"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.5552916, 43.6305826)",
+        "ADDRESS": "250 The East Mall, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          "Commercial",
+          "Residential",
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto ",
+        "WARD": 3,
+        "USI TEAM MEMBERS": [
+          "Eric Turcotte",
+          "Harshitha Damodaran"
+        ],
+        "PRINCIPAL IN CHARGE": "Benjamin Hoff",
+        "PROJECT MANAGER": "Corals Zheng",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "Has not been approved",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Pending",
+        "RESIDENTIAL UNITS": "",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "",
+        "MAX. NON-RESIDENTIAL GFA": "",
+        "MIN. NON-RESIDENTIAL GFA": "",
+        "DENSITY": "",
+        "HEIGHT (METERS)": "",
+        "HEIGHT (STOREYS)": "8 towers (up to 40 storeys)",
+        "SITE AREA (M2)": "",
+        "BY-LAW NUMBER(S)": [
+          "N/A"
+        ],
+        "MOST RECENT REPORT": "https://secure.toronto.ca/council/agenda-item.do?item=2021.EY23.26",
+        "NOTES": "only had preliminary report and request for community engagement, no approval nor movements since 2021"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3432322,
+          43.7778776
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "20060",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "CF Fairview Mall Intensification",
+        "CLIENT NAME": [
+          "Cadillac Fairview (CF)"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.3432322, 43.7778776)",
+        "ADDRESS": "1800 Sheppard Avenue East, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Community Engagement",
+          "Urban Design",
+          "Transit-Oriented Development"
+        ],
+        "PROJECT FOCUS": [
+          "Commercial",
+          "Residential"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 17,
+        "USI TEAM MEMBERS": [
+          "Eric Turcotte",
+          "Leigh McGrath",
+          "Mihaly Szabo"
+        ],
+        "PRINCIPAL IN CHARGE": "Eric Turcotte",
+        "PROJECT MANAGER": "Desi Simova",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2024",
+        "APPROVAL TYPE(S)": [
+          "OPA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "6200",
+        "AFFORDABLE UNITS (%)": "N/A",
+        "AFFORDABLE UNITS": "N/A",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "N/A",
+        "DENSITY": "2.81",
+        "HEIGHT (METERS)": "179",
+        "HEIGHT (STOREYS)": "14 new buildings from 24-52 storeys",
+        "SITE AREA (M2)": "188261",
+        "BY-LAW NUMBER(S)": [
+          "1355-2024"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2024/ny/bgrd/backgroundfile-249436.pdf",
+        "NOTES": "find centroid of this specific area? as detailed in the attachments on the report for this project"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5149534,
+          43.7565924
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "18070",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Jane Finch Mall Redevelopment",
+        "CLIENT NAME": [
+          "Brad-Jay Investments Ltd."
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.5149534, 43.7565924)",
+        "ADDRESS": "1911 Finch Avenue West, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Community Engagement",
+          "Urban Design",
+          "Development Approvals",
+          "Planning Analysis"
+        ],
+        "PROJECT FOCUS": [
+          "Commercial",
+          "Residential"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 7,
+        "USI TEAM MEMBERS": [
+          "Craig Lametti",
+          "Emily Reisman",
+          "Yasmin Afshar"
+        ],
+        "PRINCIPAL IN CHARGE": "Craig Lametti",
+        "PROJECT MANAGER": "Yasmin Afshar",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2024",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "4636",
+        "AFFORDABLE UNITS (%)": "N/A",
+        "AFFORDABLE UNITS": "N/A",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "N/A",
+        "DENSITY": "4.99",
+        "HEIGHT (METERS)": "A (138, 148.8), B (145.4, 118.4), C (123.6, 90.7)",
+        "HEIGHT (STOREYS)": "A (43, 47), B (45, 36), C (39, 28)",
+        "SITE AREA (M2)": "32185",
+        "BY-LAW NUMBER(S)": [
+          "611-2024",
+          "612-2024",
+          "613-2024"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2024/ey/bgrd/backgroundfile-244836.pdf",
+        "NOTES": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4147526,
+          43.6751576
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "22054",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Bathurst and Bridgman Block",
+        "CLIENT NAME": [
+          "Albar Development Inc."
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.4147526, 43.6751576)",
+        "ADDRESS": "1191 Bathurst Street, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Development Approvals",
+          "Community Engagement"
+        ],
+        "PROJECT FOCUS": [
+          "Commercial",
+          "Residential"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 12,
+        "USI TEAM MEMBERS": [
+          "Christine Fang-Denissov",
+          "Lauren Haein An",
+          "Christie Chin"
+        ],
+        "PRINCIPAL IN CHARGE": "",
+        "PROJECT MANAGER": "",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2024",
+        "APPROVAL TYPE(S)": [
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "",
+        "MAX. NON-RESIDENTIAL GFA": "",
+        "MIN. NON-RESIDENTIAL GFA": "",
+        "DENSITY": "10.6",
+        "HEIGHT (METERS)": "242.4, 228.7, 188, 49.9",
+        "HEIGHT (STOREYS)": "70, 64, 55, 12",
+        "SITE AREA (M2)": "18240",
+        "BY-LAW NUMBER(S)": [
+          ""
+        ],
+        "MOST RECENT REPORT": "https://secure.toronto.ca/council/agenda-item.do?item=2023.TE6.32",
+        "NOTES": "no further information about future developments -- no ZBA, no OPA, nothing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.363241,
+          43.6466171
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "21079",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Quayside",
+        "CLIENT NAME": [
+          "Quayside Impact Limited Partnership"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.3632410, 43.6466171)",
+        "ADDRESS": "259 Lake Shore Boulevard, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Development Approvals",
+          "Community Engagement",
+          "Urban Design"
+        ],
+        "PROJECT FOCUS": [
+          ""
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 10,
+        "USI TEAM MEMBERS": [
+          "Benjamin Hoff",
+          "Anne Benaroya",
+          "Dennis Lago",
+          "Inger Squires"
+        ],
+        "PRINCIPAL IN CHARGE": "Benjamin Hoff",
+        "PROJECT MANAGER": "Anne Benaroya",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2024",
+        "APPROVAL TYPE(S)": [
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "2811",
+        "AFFORDABLE UNITS (%)": "16.29",
+        "AFFORDABLE UNITS": "458",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "N/A",
+        "DENSITY": "10.62",
+        "HEIGHT (METERS)": "231",
+        "HEIGHT (STOREYS)": "70, 64, 55, 12",
+        "SITE AREA (M2)": "18240",
+        "BY-LAW NUMBER(S)": [
+          "852-2024"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2024/te/bgrd/backgroundfile-247148.pdf",
+        "NOTES": "supposedly there is a 333 lake shore planning approval document -- currently nonexistent, but everything else for "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3597922,
+          43.6469674
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "21079",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Quayside",
+        "CLIENT NAME": [
+          "Quayside Impact Limited Partnership"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.3597922, 43.6469674)",
+        "ADDRESS": "333 Lake Shore Boulevard, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Development Approvals",
+          "Community Engagement",
+          "Urban Design"
+        ],
+        "PROJECT FOCUS": [
+          ""
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 10,
+        "USI TEAM MEMBERS": [
+          "Benjamin Hoff",
+          "Anne Benaroya",
+          "Dennis Lago",
+          "Inger Squires"
+        ],
+        "PRINCIPAL IN CHARGE": "Benjamin Hoff",
+        "PROJECT MANAGER": "Anne Benaroya",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "",
+        "APPROVAL TYPE(S)": "",
+        "APPROVAL STATUS": "",
+        "RESIDENTIAL UNITS": "",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "",
+        "MAX. NON-RESIDENTIAL GFA": "",
+        "MIN. NON-RESIDENTIAL GFA": "",
+        "DENSITY": "",
+        "HEIGHT (METERS)": "",
+        "HEIGHT (STOREYS)": "",
+        "SITE AREA (M2)": "",
+        "BY-LAW NUMBER(S)": [
+          "N/A"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2024/te/bgrd/backgroundfile-247148.pdf",
+        "NOTES": "supposedly there is a 333 lake shore planning approval document -- currently nonexistent, but everything else for "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3984815,
+          43.7060136
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "17021",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Canada Square",
+        "CLIENT NAME": [
+          "Oxford Properties Group"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.3984815, 43.7060136)",
+        "ADDRESS": "2200 Yonge Street, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Development Approvals",
+          "Community Engagement"
+        ],
+        "PROJECT FOCUS": [
+          "Residential"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 12,
+        "USI TEAM MEMBERS": [
+          "Christine Fang-Denissov",
+          "Craig Lametti"
+        ],
+        "PRINCIPAL IN CHARGE": "Christine Fang Denissov",
+        "PROJECT MANAGER": "Sara Eng",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "",
+        "APPROVAL TYPE(S)": "",
+        "APPROVAL STATUS": "",
+        "RESIDENTIAL UNITS": "",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "",
+        "MAX. NON-RESIDENTIAL GFA": "",
+        "MIN. NON-RESIDENTIAL GFA": "",
+        "DENSITY": "",
+        "HEIGHT (METERS)": "",
+        "HEIGHT (STOREYS)": "",
+        "SITE AREA (M2)": "",
+        "BY-LAW NUMBER(S)": [
+          "N/A"
+        ],
+        "MOST RECENT REPORT": "https://secure.toronto.ca/council/agenda-item.do?item=2022.PH35.10",
+        "NOTES": "no approval reports for the ZBA or OPA (only a preliminary and supplementary report -- how is this not available in city archives ? can't find any relevant information because there is no finalized report with all of the details"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3978928,
+          43.6374145
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "20079",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Under Concord",
+        "CLIENT NAME": [
+          "Concord Adex"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.3978928, 43.6374145)",
+        "ADDRESS": "38 Dan Leckie Way, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Development Approvals",
+          "Planning Analysis",
+          "Urban Design"
+        ],
+        "PROJECT FOCUS": [
+          "Commercial"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 10,
+        "USI TEAM MEMBERS": [
+          "Emily Reisman"
+        ],
+        "PRINCIPAL IN CHARGE": "",
+        "PROJECT MANAGER": "",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "",
+        "APPROVAL TYPE(S)": "",
+        "APPROVAL STATUS": "",
+        "RESIDENTIAL UNITS": "",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "",
+        "MAX. NON-RESIDENTIAL GFA": "",
+        "MIN. NON-RESIDENTIAL GFA": "",
+        "DENSITY": "",
+        "HEIGHT (METERS)": "",
+        "HEIGHT (STOREYS)": "",
+        "SITE AREA (M2)": "",
+        "BY-LAW NUMBER(S)": [
+          "N/A"
+        ],
+        "MOST RECENT REPORT": "https://www.urbanstrategies.com/project/under-concord/",
+        "NOTES": "still no approval reports from ZBA that was sent in for this project -- can only find projects by the Bentway, but they also don't have any approval reports or anything. Maybe I just need an address that this was filed under at the time? or at least the year the report was discussed."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3168033,
+          43.6656687
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "18088",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Queen Ashbridge/Don Summerville Revitalization",
+        "CLIENT NAME": [
+          "Context Development Inc."
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.3168033, 43.6656687)",
+        "ADDRESS": "1070 Eastern Avenue, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Development Approvals",
+          "Urban Design"
+        ],
+        "PROJECT FOCUS": [
+          "Residential"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 14,
+        "USI TEAM MEMBERS": [
+          "Benjamin Hoff",
+          "Yasmin Afshar"
+        ],
+        "PRINCIPAL IN CHARGE": "",
+        "PROJECT MANAGER": "",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2020",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA",
+          "Rental Housing Demolition"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "766",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "220",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "N/A",
+        "DENSITY": "4.41",
+        "HEIGHT (METERS)": "8.8-10",
+        "HEIGHT (STOREYS)": "10, 17",
+        "SITE AREA (M2)": "13422",
+        "BY-LAW NUMBER(S)": [
+          "830-2020",
+          "831-2020",
+          "832-2020",
+          "76-2023",
+          "77-2023",
+          "833-2020"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2020/te/bgrd/backgroundfile-148523.pdf",
+        "NOTES": "location of report is right next to the address, not sure if this is the correct report but there are no other reports anyways on this site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3184975,
+          43.6654821
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "18088",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Queen Ashbridge/Don Summerville Revitalization",
+        "CLIENT NAME": [
+          "Context Development Inc."
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.3184975, 43.6654821)",
+        "ADDRESS": "1555 Queen Street East",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Development Approvals",
+          "Urban Design"
+        ],
+        "PROJECT FOCUS": [
+          "Residential"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 14,
+        "USI TEAM MEMBERS": [
+          "Benjamin Hoff",
+          "Yasmin Afshar"
+        ],
+        "PRINCIPAL IN CHARGE": "",
+        "PROJECT MANAGER": "",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2020",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA",
+          "Rental Housing Demolition"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "766",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "220",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "N/A",
+        "DENSITY": "4.41",
+        "HEIGHT (METERS)": "8.8-10",
+        "HEIGHT (STOREYS)": "10, 17",
+        "SITE AREA (M2)": "13422",
+        "BY-LAW NUMBER(S)": [
+          "830-2020",
+          "831-2020",
+          "832-2020",
+          "76-2023",
+          "77-2023",
+          "833-2020"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2020/te/bgrd/backgroundfile-148523.pdf",
+        "NOTES": "location of report is right next to the address, not sure if this is the correct report but there are no other reports anyways on this site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3178525,
+          43.6656125
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "18088",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Queen Ashbridge/Don Summerville Revitalization",
+        "CLIENT NAME": [
+          "Context Development Inc."
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.3178525, 43.6656125)",
+        "ADDRESS": "1575 Queen Street East",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Development Approvals",
+          "Urban Design"
+        ],
+        "PROJECT FOCUS": [
+          "Residential"
+        ],
+        "MUNICIPALITY": "Toronto ",
+        "WARD": 14,
+        "USI TEAM MEMBERS": [
+          "Benjamin Hoff",
+          "Yasmin Afshar"
+        ],
+        "PRINCIPAL IN CHARGE": "",
+        "PROJECT MANAGER": "",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2020",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA",
+          "Rental Housing Demolition"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "766",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "220",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "N/A",
+        "DENSITY": "4.41",
+        "HEIGHT (METERS)": "8.8-10",
+        "HEIGHT (STOREYS)": "10, 17",
+        "SITE AREA (M2)": "13422",
+        "BY-LAW NUMBER(S)": [
+          "830-2020",
+          "831-2020",
+          "832-2020",
+          "76-2023",
+          "77-2023",
+          "833-2020"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2020/te/bgrd/backgroundfile-148523.pdf",
+        "NOTES": "location of report is right next to the address, not sure if this is the correct report but there are no other reports anyways on this site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2570532,
+          43.7785696
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "16085",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Scarborough Town Centre Master Plan",
+        "CLIENT NAME": [
+          "Oxford Properties Group"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.2570532, 43.7785696)",
+        "ADDRESS": "300 Borough Drive, Scarborough, Ontario",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          "Commercial"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 21,
+        "USI TEAM MEMBERS": [
+          "Harshitha Damodaran",
+          "Samantha Anderson"
+        ],
+        "PRINCIPAL IN CHARGE": "Craig Lametti",
+        "PROJECT MANAGER": "Samantha Anderson",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2024",
+        "APPROVAL TYPE(S)": [
+          "OPA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "15500",
+        "AFFORDABLE UNITS (%)": "N/A",
+        "AFFORDABLE UNITS": "N/A",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "N/A",
+        "DENSITY": "3.6",
+        "HEIGHT (METERS)": "N/A",
+        "HEIGHT (STOREYS)": "65",
+        "SITE AREA (M2)": "370004",
+        "BY-LAW NUMBER(S)": [
+          "744-2024"
+        ],
+        "MOST RECENT REPORT": "https://www.omb.gov.on.ca/e-decisions/OLT-22-004605-NOV-20-2024-ORD.pdf",
+        "NOTES": "no approval reports for this project only a request for directions from ontario land tribunal in 2024 -- not sure where this has gone ever since"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4349648,
+          43.6580205
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "18033",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Dufferin Mall Redevelopment ",
+        "CLIENT NAME": [
+          "Primaris Management Inc."
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.4349648, 43.6580205)",
+        "ADDRESS": "900 Dufferin Street, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Development Approvals",
+          "Community Engagement"
+        ],
+        "PROJECT FOCUS": [
+          "Commercial",
+          "Residential"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 9,
+        "USI TEAM MEMBERS": [
+          "Eric Turcotte",
+          "Sirous Ghanbarzadeh",
+          "James DiPaolo",
+          "Aya Almaddah",
+          "Mihaly Szabo"
+        ],
+        "PRINCIPAL IN CHARGE": "",
+        "PROJECT MANAGER": "",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2021",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Pending",
+        "RESIDENTIAL UNITS": "",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "",
+        "MAX. NON-RESIDENTIAL GFA": "",
+        "MIN. NON-RESIDENTIAL GFA": "",
+        "DENSITY": "6.54",
+        "HEIGHT (METERS)": "86.8, 133.4 and 121.1",
+        "HEIGHT (STOREYS)": "23, 39 and 35",
+        "SITE AREA (M2)": "15612",
+        "BY-LAW NUMBER(S)": [
+          "N/A"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2021/cc/bgrd/backgroundfile-169038.pdf",
+        "NOTES": "no approval report but they have an amended request for directions whatever that means -- follow up on progress or if the reported information is finalized"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2808675,
+          43.7298366
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "17132",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "2200 Eglinton Avenue East",
+        "CLIENT NAME": [
+          "Dream Asset Management",
+          "Dundeal Canada (GP) Inc."
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.2808675, 43.7298366)",
+        "ADDRESS": "2200 Eglinton Avenue East, Toronto Ontario",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          "Commercial",
+          "Residential"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 21,
+        "USI TEAM MEMBERS": [
+          "Benjamin Hoff",
+          "Inger Squires",
+          "Peter Pantalone"
+        ],
+        "PRINCIPAL IN CHARGE": "Benjamin Hoff",
+        "PROJECT MANAGER": "Peter Pantalone",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2022",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Pending",
+        "RESIDENTIAL UNITS": "",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "",
+        "MAX. NON-RESIDENTIAL GFA": "",
+        "MIN. NON-RESIDENTIAL GFA": "",
+        "DENSITY": "",
+        "HEIGHT (METERS)": "",
+        "HEIGHT (STOREYS)": "",
+        "SITE AREA (M2)": "",
+        "BY-LAW NUMBER(S)": [
+          "N/A"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2022/cc/bgrd/backgroundfile-228806.pdf",
+        "NOTES": "no approval, only preliminary report and request for directions and ontario land tribunal report -- still don't know how this is going"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3857651,
+          43.6575252
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "17067",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "SickKids Patient Support Centre",
+        "CLIENT NAME": [
+          "SickKids"
+        ],
+        "CLIENT TYPE": [
+          "Hospital/Medical Institution"
+        ],
+        "CENTROID COORDINATES": "(-79.3857651, 43.6575252)",
+        "ADDRESS": "175 Elizabeth Street, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          "Healthcare"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 11,
+        "USI TEAM MEMBERS": [
+          "Eric Turcotte",
+          "Josh Kohler",
+          "Sirous Ghanbarzadeh",
+          "Mihaly Szabo"
+        ],
+        "PRINCIPAL IN CHARGE": "Eric Turcotte",
+        "PROJECT MANAGER": "Josh Kohler",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2018",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "N/A",
+        "AFFORDABLE UNITS (%)": "N/A",
+        "AFFORDABLE UNITS": "N/A",
+        "MAX. NON-RESIDENTIAL GFA": "46750",
+        "MIN. NON-RESIDENTIAL GFA": "N/A",
+        "DENSITY": "19.6",
+        "HEIGHT (METERS)": "98.66",
+        "HEIGHT (STOREYS)": "22",
+        "SITE AREA (M2)": "2293",
+        "BY-LAW NUMBER(S)": [
+          "1302-2018",
+          "1303-2018",
+          "1329-2018"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2018/te/bgrd/backgroundfile-117194.pdf",
+        "NOTES": "nothing extra needed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2499983,
+          43.7774148
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "16034",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "670-690 Progress Avenue (Fieldgate Consilium)",
+        "CLIENT NAME": [
+          "Fieldgate Urban"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.2499983, 43.7774148)",
+        "ADDRESS": "670 Progress Avenue, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          "Residential",
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 24,
+        "USI TEAM MEMBERS": [
+          "Cyndi Rottenberg-Walker",
+          "James DiPaolo"
+        ],
+        "PRINCIPAL IN CHARGE": "Cyndi Rottenberg-Walker",
+        "PROJECT MANAGER": "James Di Paolo",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2025",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Pending",
+        "RESIDENTIAL UNITS": "3203",
+        "AFFORDABLE UNITS (%)": "N/A",
+        "AFFORDABLE UNITS": "N/A",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "1,57",
+        "DENSITY": "5.57",
+        "HEIGHT (METERS)": "124.95, 60.1, 111.65, 122.5, 163.3, 59.65, 133.35",
+        "HEIGHT (STOREYS)": "40, 18, 37, 39, 54, 18, 43",
+        "SITE AREA (M2)": "N/A",
+        "BY-LAW NUMBER(S)": [
+          "OLT-22-003924"
+        ],
+        "MOST RECENT REPORT": "https://www.omb.gov.on.ca/e-decisions/OLT-22-003924-OCT-30-2025.pdf",
+        "NOTES": "OLT approved amendments but by-law # N/A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2487831,
+          43.7781023
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "16034",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "670-690 Progress Avenue (Fieldgate Consilium)",
+        "CLIENT NAME": [
+          "Fieldgate Urban"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.2487831, 43.7781023)",
+        "ADDRESS": "690 Progress Avenue, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          "Residential",
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 24,
+        "USI TEAM MEMBERS": [
+          "Cyndi Rottenberg-Walker",
+          "James DiPaolo"
+        ],
+        "PRINCIPAL IN CHARGE": "Cyndi Rottenberg-Walker",
+        "PROJECT MANAGER": "James Di Paolo",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2025",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Pending",
+        "RESIDENTIAL UNITS": "3203",
+        "AFFORDABLE UNITS (%)": "N/A",
+        "AFFORDABLE UNITS": "N/A",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "1,57",
+        "DENSITY": "5.57",
+        "HEIGHT (METERS)": "124.95, 60.1, 111.65, 122.5, 163.3, 59.65, 133.35",
+        "HEIGHT (STOREYS)": "40, 18, 37, 39, 54, 18, 43",
+        "SITE AREA (M2)": "N/A",
+        "BY-LAW NUMBER(S)": [
+          "OLT-22-003924"
+        ],
+        "MOST RECENT REPORT": "https://www.omb.gov.on.ca/e-decisions/OLT-22-003924-OCT-30-2025.pdf",
+        "NOTES": "OLT approved amendments but by-law # N/A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": {}
+      },
+      "properties": {
+        "PROJECT NUMBER": "18047",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "West Don Lands Affordable Housing",
+        "CLIENT NAME": [
+          "DREAM",
+          "Tricon Capitol Group",
+          "Kilmer Van Nostrand Co. Limited"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "",
+        "ADDRESS": "Central Waterfront and King-Parliament Secondary Plan areas (125 Mill Street)",
+        "PROJECT TYPE": [
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          "Residential",
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 10,
+        "USI TEAM MEMBERS": [
+          "Benjamin Hoff"
+        ],
+        "PRINCIPAL IN CHARGE": "",
+        "PROJECT MANAGER": "",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2020",
+        "APPROVAL TYPE(S)": "OPA and ZBA approved via MZO, Site Plan under review ",
+        "APPROVAL STATUS": "Pending",
+        "RESIDENTIAL UNITS": "",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "",
+        "MAX. NON-RESIDENTIAL GFA": "",
+        "MIN. NON-RESIDENTIAL GFA": "",
+        "DENSITY": "",
+        "HEIGHT (METERS)": "",
+        "HEIGHT (STOREYS)": "2 new buildings 45-storey and 32-storey",
+        "SITE AREA (M2)": "",
+        "BY-LAW NUMBER(S)": [
+          ""
+        ],
+        "MOST RECENT REPORT": "N/A",
+        "NOTES": "find site specific infomation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": {}
+      },
+      "properties": {
+        "PROJECT NUMBER": "20002",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "East Harbour",
+        "CLIENT NAME": [
+          "Cadillac Fairview (CF)"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "",
+        "ADDRESS": "East Harbour area",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          "Brownfield Remediation",
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 14,
+        "USI TEAM MEMBERS": [
+          "Benjamin Hoff",
+          "Geoff Whittaker",
+          "Samuel Lozeau",
+          "Harshitha Damodaran"
+        ],
+        "PRINCIPAL IN CHARGE": "Benjamin Hoff",
+        "PROJECT MANAGER": "Kenny Lamizana",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2022",
+        "APPROVAL TYPE(S)": "Employment Area Conversion",
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "",
+        "MAX. NON-RESIDENTIAL GFA": "",
+        "MIN. NON-RESIDENTIAL GFA": "",
+        "DENSITY": "",
+        "HEIGHT (METERS)": "",
+        "HEIGHT (STOREYS)": "",
+        "SITE AREA (M2)": "",
+        "BY-LAW NUMBER(S)": [
+          ""
+        ],
+        "MOST RECENT REPORT": "N/A",
+        "NOTES": "find specific address "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3994334,
+          43.6471064
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "16046",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "505 Richmond Street West, Waterworks",
+        "CLIENT NAME": [
+          "MOD Developments Inc.",
+          "Woodcliffe Landmark Properties"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.3994334, 43.6471064)",
+        "ADDRESS": "505 Richmond Street West, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          "Residential",
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 10,
+        "USI TEAM MEMBERS": [
+          "Melanie Hare"
+        ],
+        "PRINCIPAL IN CHARGE": "",
+        "PROJECT MANAGER": "",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2017",
+        "APPROVAL TYPE(S)": [
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "288",
+        "AFFORDABLE UNITS (%)": "0",
+        "AFFORDABLE UNITS": "0",
+        "MAX. NON-RESIDENTIAL GFA": "8000",
+        "MIN. NON-RESIDENTIAL GFA": "N/A",
+        "DENSITY": "6.09",
+        "HEIGHT (METERS)": "53.5",
+        "HEIGHT (STOREYS)": "13",
+        "SITE AREA (M2)": "5174",
+        "BY-LAW NUMBER(S)": [
+          "848-2017",
+          "849-2017",
+          "1459-2017",
+          "1460-2017"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2017/te/bgrd/backgroundfile-101268.pdf",
+        "NOTES": "has member-motion-amended ZBA on top of previously approved ZBA and stuff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4120596,
+          43.6646854
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "13049",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Bloor & Bathurst (Honest Ed's)",
+        "CLIENT NAME": [
+          "Westbank"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.4120596, 43.6646854)",
+        "ADDRESS": "581 Bloor Street West, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Development Approvals",
+          "Transit-Oriented Development"
+        ],
+        "PROJECT FOCUS": [
+          "Commercial",
+          "Residential"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 10,
+        "USI TEAM MEMBERS": [
+          "Frank Lewinberg",
+          "Benjamin Hoff",
+          "Josh Kohler"
+        ],
+        "PRINCIPAL IN CHARGE": "",
+        "PROJECT MANAGER": "",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2017",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "806",
+        "AFFORDABLE UNITS (%)": "7.44",
+        "AFFORDABLE UNITS": "60",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "N/A",
+        "DENSITY": "5.33",
+        "HEIGHT (METERS)": "85, 82, 77,  61, and 47",
+        "HEIGHT (STOREYS)": "5 new buildings 26, 25, 24, 19 and 13 storeys",
+        "SITE AREA (M2)": "14172",
+        "BY-LAW NUMBER(S)": [
+          "1104-2017",
+          "1105-2017",
+          "1106-2017"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2017/te/bgrd/backgroundfile-102235.pdf",
+        "NOTES": "done?"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4452017,
+          43.6546126
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "10079",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Sterling Road Redevelopment ",
+        "CLIENT NAME": [
+          "Castlepoint Greybrook Sterling Inc.",
+          "Hines"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.4452017, 43.6546126)",
+        "ADDRESS": "158 Sterling Road, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          "Commercial",
+          "Residential"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 9,
+        "USI TEAM MEMBERS": [
+          "Emily Reisman"
+        ],
+        "PRINCIPAL IN CHARGE": "",
+        "PROJECT MANAGER": "",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2025",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "737",
+        "AFFORDABLE UNITS (%)": "1.09",
+        "AFFORDABLE UNITS": "8",
+        "MAX. NON-RESIDENTIAL GFA": "1500",
+        "MIN. NON-RESIDENTIAL GFA": "1250",
+        "DENSITY": "8.57 and 6.06",
+        "HEIGHT (METERS)": "99",
+        "HEIGHT (STOREYS)": "31",
+        "SITE AREA (M2)": "4774",
+        "BY-LAW NUMBER(S)": [
+          "469-2025",
+          "470-2025"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2025/te/bgrd/backgroundfile-253922.pdf",
+        "NOTES": "done?"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3407175,
+          43.7232253
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "14004",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Celestica Development Proposal",
+        "CLIENT NAME": [
+          "Celestica"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.3407175, 43.7232253)",
+        "ADDRESS": "844 Don Mills Road, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          "Commercial",
+          "Residential"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 16,
+        "USI TEAM MEMBERS": [
+          ""
+        ],
+        "PRINCIPAL IN CHARGE": "",
+        "PROJECT MANAGER": "",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2018-2022",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Pending",
+        "RESIDENTIAL UNITS": "4921",
+        "AFFORDABLE UNITS (%)": "N/A",
+        "AFFORDABLE UNITS": "N/A",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "N/A",
+        "DENSITY": "2.31",
+        "HEIGHT (METERS)": "147",
+        "HEIGHT (STOREYS)": "48",
+        "SITE AREA (M2)": "244240",
+        "BY-LAW NUMBER(S)": [
+          "1214-2019"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/city-government/planning-development/application-details/?id=4044115&pid=425755&title=844-DON-MILLS-RD.,-1150-AND-1155-EGLINTON-AVE-EAST--CLOSE-FOLDER",
+        "NOTES": "Project details unclear. Client has changed as Celestica sold development. "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4410701,
+          43.6677361
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "15066",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Galleria Mall Redevelopment",
+        "CLIENT NAME": [
+          "Freed Deveopments",
+          "Almadev"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.4410701, 43.6677361)",
+        "ADDRESS": "1245 Dupont Street, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          "Commercial",
+          "Residential",
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 9,
+        "USI TEAM MEMBERS": [
+          "Melanie Hare",
+          "Christine Fang-Denissov",
+          "Sirous Ghanbar Zadeh",
+          "Aya Almaddah",
+          "Sean Quin"
+        ],
+        "PRINCIPAL IN CHARGE": "Melanie Hare",
+        "PROJECT MANAGER": "Kenny Lamizana",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2019 and ongoing ",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Pending",
+        "RESIDENTIAL UNITS": "",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "",
+        "MAX. NON-RESIDENTIAL GFA": "",
+        "MIN. NON-RESIDENTIAL GFA": "",
+        "DENSITY": "",
+        "HEIGHT (METERS)": "",
+        "HEIGHT (STOREYS)": "31",
+        "SITE AREA (M2)": "",
+        "BY-LAW NUMBER(S)": [
+          "OLT-24-000440"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2024/cc/bgrd/backgroundfile-251449.pdf",
+        "NOTES": "nothing as of late, there are no approved bylaws"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4529083,
+          43.7254565
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "10042",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Yorkdale Shopping Centre",
+        "CLIENT NAME": [
+          "Oxford Properties Group"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.4529083, 43.7254565)",
+        "ADDRESS": "3401 Dufferin Street, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          "Commericial"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 8,
+        "USI TEAM MEMBERS": [
+          "Frank Lewinberg",
+          "Michel Trocme",
+          "Mary Castel",
+          "Aya Almaddah",
+          "Ning Lin",
+          "Desi Simova"
+        ],
+        "PRINCIPAL IN CHARGE": "Josh Neubauer",
+        "PROJECT MANAGER": "Desi Simova",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2023",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "Secondary Plan"
+        ],
+        "APPROVAL STATUS": "Pending",
+        "RESIDENTIAL UNITS": "",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "",
+        "MAX. NON-RESIDENTIAL GFA": "",
+        "MIN. NON-RESIDENTIAL GFA": "",
+        "DENSITY": "",
+        "HEIGHT (METERS)": "",
+        "HEIGHT (STOREYS)": "",
+        "SITE AREA (M2)": "",
+        "BY-LAW NUMBER(S)": [
+          "OLT-22-003315"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2023/cc/bgrd/backgroundfile-237057.pdf",
+        "NOTES": "went to OLT, but no bylaws came out of this"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3774342,
+          43.6450184
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "9016",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "CIBC Square",
+        "CLIENT NAME": [
+          "Ivanhoe Cambridge",
+          "Metrolinx",
+          "Hines"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers",
+          "Federal Crown Corporation"
+        ],
+        "CENTROID COORDINATES": "(-79.3774342, 43.6450184)",
+        "ADDRESS": "81-141 Bay Street, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          "Commericial"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 10,
+        "USI TEAM MEMBERS": [
+          "Frank Lewinberg",
+          "Benjamin Hoff",
+          "Inger Squires"
+        ],
+        "PRINCIPAL IN CHARGE": "",
+        "PROJECT MANAGER": "",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2016",
+        "APPROVAL TYPE(S)": [
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "N/A",
+        "AFFORDABLE UNITS (%)": "N/A",
+        "AFFORDABLE UNITS": "N/A",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "N/A",
+        "DENSITY": "6",
+        "HEIGHT (METERS)": "243",
+        "HEIGHT (STOREYS)": "53",
+        "SITE AREA (M2)": "22520",
+        "BY-LAW NUMBER(S)": [
+          "1104-2016"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2016/te/bgrd/backgroundfile-97180.pdf",
+        "NOTES": "hopefully this is the correct approval document -- theres another one for 1 front street west and 141 bay (development on top of dominion building) that got a refusal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4001077,
+          43.6521783
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "9034",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Alexandra Park Revitalization",
+        "CLIENT NAME": [
+          "Toronto Community Housing Corporation",
+          "Tridel"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers",
+          "Municipal Corporation"
+        ],
+        "CENTROID COORDINATES": "(-79.4001077, 43.6521783)",
+        "ADDRESS": "571 Dundas Street West, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Development Approvals",
+          "Community Engagement"
+        ],
+        "PROJECT FOCUS": [
+          "Residential"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 10,
+        "USI TEAM MEMBERS": [
+          "Christine Fang-Denissov",
+          "Cyndi Rottenberg-Walker",
+          "Michel Trocme",
+          "Dennis Lago",
+          "Harshitha Damodaran",
+          "Sean Quin"
+        ],
+        "PRINCIPAL IN CHARGE": "Christine Fang Denissov",
+        "PROJECT MANAGER": "Grant Mason",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2020",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "",
+        "AFFORDABLE UNITS (%)": "0",
+        "AFFORDABLE UNITS": "0",
+        "MAX. NON-RESIDENTIAL GFA": "4100",
+        "MIN. NON-RESIDENTIAL GFA": "N/A",
+        "DENSITY": "3.04",
+        "HEIGHT (METERS)": "48.5 and 46.5",
+        "HEIGHT (STOREYS)": "15 and 14",
+        "SITE AREA (M2)": "59400",
+        "BY-LAW NUMBER(S)": [
+          "839-2020",
+          "840-2020",
+          "841-2020",
+          "842-2020"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2019/te/bgrd/backgroundfile-134349.pdf",
+        "NOTES": "total number of residential units not mentioned, but they are replacing the 77 social housing units with at least 410 units -- not sure if that's the total amount"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4999789,
+          43.6267155
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "18117",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Reina (689 The Queensway)",
+        "CLIENT NAME": [
+          "Reina Developments Inc."
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.4999789, 43.6267155)",
+        "ADDRESS": "689 The Queensway, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Development Approvals",
+          "Community Engagement"
+        ],
+        "PROJECT FOCUS": [
+          "Commericial",
+          "Residential"
+        ],
+        "MUNICIPALITY": "Toronto ",
+        "WARD": 3,
+        "USI TEAM MEMBERS": [
+          "Emily Reisman"
+        ],
+        "PRINCIPAL IN CHARGE": "",
+        "PROJECT MANAGER": "",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2020",
+        "APPROVAL TYPE(S)": [
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "198",
+        "AFFORDABLE UNITS (%)": "0",
+        "AFFORDABLE UNITS": "0",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "500",
+        "DENSITY": "4.25",
+        "HEIGHT (METERS)": "30.95",
+        "HEIGHT (STOREYS)": "9",
+        "SITE AREA (M2)": "4033",
+        "BY-LAW NUMBER(S)": [
+          "680-2021"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2020/ey/bgrd/backgroundfile-157600.pdf",
+        "NOTES": "done !!"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.423524,
+          43.6369546
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "19012",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Allied 41 Fraser Development Approvals",
+        "CLIENT NAME": [
+          "Allied Properties REIT"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.4235240, 43.6369546)",
+        "ADDRESS": "41 Fraser Avenue, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          "Office",
+          "Commercial"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 10,
+        "USI TEAM MEMBERS": [
+          ""
+        ],
+        "PRINCIPAL IN CHARGE": "",
+        "PROJECT MANAGER": "",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2023",
+        "APPROVAL TYPE(S)": [
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "",
+        "MAX. NON-RESIDENTIAL GFA": "",
+        "MIN. NON-RESIDENTIAL GFA": "",
+        "DENSITY": "5.97",
+        "HEIGHT (METERS)": "50.33, 55.36",
+        "HEIGHT (STOREYS)": "10, 11",
+        "SITE AREA (M2)": "7915",
+        "BY-LAW NUMBER(S)": [
+          "453-2023"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2023/te/bgrd/backgroundfile-235376.pdf",
+        "NOTES": "only has heritage easement agreement from 2023, nothing after"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": {}
+      },
+      "properties": {
+        "PROJECT NUMBER": "19067",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Gerrard-Carlaw North TOC",
+        "CLIENT NAME": [
+          "Choice Properties Limited Partnership"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "",
+        "ADDRESS": "N/A",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          ""
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 14,
+        "USI TEAM MEMBERS": [
+          "Inger Squires"
+        ],
+        "PRINCIPAL IN CHARGE": "Inger Squires",
+        "PROJECT MANAGER": "Inger Squires",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2022",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Pending",
+        "RESIDENTIAL UNITS": "",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "",
+        "MAX. NON-RESIDENTIAL GFA": "",
+        "MIN. NON-RESIDENTIAL GFA": "",
+        "DENSITY": "",
+        "HEIGHT (METERS)": "",
+        "HEIGHT (STOREYS)": "",
+        "SITE AREA (M2)": "",
+        "BY-LAW NUMBER(S)": [
+          "883-2024"
+        ],
+        "MOST RECENT REPORT": "https://secure.toronto.ca/council/agenda-item.do?item=2023.PH8.5",
+        "NOTES": "not too sure if this is the correct by-law, but i'm assuming it applies to the gerrard-carlaw area -- this ZBA has been approved so I'll include what I can from it"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5571424,
+          43.6118216
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "20016",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "CF Sherway Gardens Mall Intensification",
+        "CLIENT NAME": [
+          "Cadillac Fairview (CF)"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.5571424, 43.6118216)",
+        "ADDRESS": "25 The West Mall, Etobicoke, Ontario",
+        "PROJECT TYPE": [
+          "Master Planning",
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          "Residential",
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 3,
+        "USI TEAM MEMBERS": [
+          "Eric Turcotte",
+          "Leigh McGrath",
+          "Mihaly Szabo",
+          "Peter Pantalone"
+        ],
+        "PRINCIPAL IN CHARGE": "Leigh McGrath",
+        "PROJECT MANAGER": "Peter Pantalone",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2019",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "Secondary Plan"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "",
+        "MAX. NON-RESIDENTIAL GFA": "",
+        "MIN. NON-RESIDENTIAL GFA": "",
+        "DENSITY": "",
+        "HEIGHT (METERS)": "",
+        "HEIGHT (STOREYS)": "",
+        "SITE AREA (M2)": "",
+        "BY-LAW NUMBER(S)": [
+          "1535-2019"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2024/cc/bgrd/backgroundfile-249927.pdf",
+        "NOTES": "OPA is the secondary plan for the sherway area from 2019, ZBA not approved yet -- OLT case number OLT-22-002175"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2051908,
+          43.7801304
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "21036",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Scarborough Health Network Centenary Hospital",
+        "CLIENT NAME": [
+          "Kasian Architecture"
+        ],
+        "CLIENT TYPE": [
+          "Design Firm"
+        ],
+        "CENTROID COORDINATES": "(-79.2051908, 43.7801304)",
+        "ADDRESS": "2863 Ellesmere Road, Scarborough, Ontario",
+        "PROJECT TYPE": [
+          "Development Approvals"
+        ],
+        "PROJECT FOCUS": [
+          "Healthcare"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 21,
+        "USI TEAM MEMBERS": [
+          "Eric Turcotte",
+          "Josh Kohler"
+        ],
+        "PRINCIPAL IN CHARGE": "Eric Turcotte",
+        "PROJECT MANAGER": "Josh Kohler",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "",
+        "APPROVAL TYPE(S)": [
+          ""
+        ],
+        "APPROVAL STATUS": "",
+        "RESIDENTIAL UNITS": "",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "",
+        "MAX. NON-RESIDENTIAL GFA": "",
+        "MIN. NON-RESIDENTIAL GFA": "",
+        "DENSITY": "",
+        "HEIGHT (METERS)": "",
+        "HEIGHT (STOREYS)": "",
+        "SITE AREA (M2)": "",
+        "BY-LAW NUMBER(S)": [
+          "N/A"
+        ],
+        "MOST RECENT REPORT": [
+          "N/A"
+        ],
+        "NOTES": "figure out what the specific development approvals are for!"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3945757,
+          43.6967895
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "21066",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "50-64 Merton Street",
+        "CLIENT NAME": [
+          "50-64 Merton Limited"
+        ],
+        "CLIENT TYPE": [
+          "Private Developer"
+        ],
+        "CENTROID COORDINATES": "(-79.3945757, 43.6967895)",
+        "ADDRESS": "50 Merton Street",
+        "PROJECT TYPE": [
+          "Development Approvals",
+          "Planning Analysis"
+        ],
+        "PROJECT FOCUS": [
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 12,
+        "USI TEAM MEMBERS": [
+          "George Dark",
+          "Leigh McGrath",
+          "Peter Pantalone"
+        ],
+        "PRINCIPAL IN CHARGE": "Leigh McGrath",
+        "PROJECT MANAGER": "Peter Pantalone",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2025",
+        "APPROVAL TYPE(S)": [
+          "OPA",
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Pending",
+        "RESIDENTIAL UNITS": "603",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "",
+        "MAX. NON-RESIDENTIAL GFA": "",
+        "MIN. NON-RESIDENTIAL GFA": "",
+        "DENSITY": "13.41",
+        "HEIGHT (METERS)": "157",
+        "HEIGHT (STOREYS)": "45",
+        "SITE AREA (M2)": "2689",
+        "BY-LAW NUMBER(S)": [
+          "N/A"
+        ],
+        "MOST RECENT REPORT": "https://www.omb.gov.on.ca/e-decisions/OLT-25-000035-AUG-11-2025.pdf",
+        "NOTES": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5073709,
+          43.6479739
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "21078",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "2955 Bloor Street West Riocan",
+        "CLIENT NAME": [
+          "RioCan"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.5073709, 43.6479739)",
+        "ADDRESS": "2939 Bloor Street West, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Development Approvals",
+          "Planning Analysis"
+        ],
+        "PROJECT FOCUS": [
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 3,
+        "USI TEAM MEMBERS": [
+          "Leigh McGrath",
+          "Lena Sanz Tovar"
+        ],
+        "PRINCIPAL IN CHARGE": "",
+        "PROJECT MANAGER": "",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2022",
+        "APPROVAL TYPE(S)": [
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Pending",
+        "RESIDENTIAL UNITS": "225",
+        "AFFORDABLE UNITS (%)": "0",
+        "AFFORDABLE UNITS": "0",
+        "MAX. NON-RESIDENTIAL GFA": "",
+        "MIN. NON-RESIDENTIAL GFA": "",
+        "DENSITY": "4.92",
+        "HEIGHT (METERS)": "27",
+        "HEIGHT (STOREYS)": "7",
+        "SITE AREA (M2)": "3176",
+        "BY-LAW NUMBER(S)": [
+          "N/A"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2022/ey/bgrd/backgroundfile-226935.pdf",
+        "NOTES": "no news? request for directions was from 3 years ago, no OLT or anything"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": {}
+      },
+      "properties": {
+        "PROJECT NUMBER": "23007",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Woodbine Northwest Residential Village/Woodbine Transit-Oriented Community Secondary Plan",
+        "CLIENT NAME": [
+          "Woodbine Entertainment Group"
+        ],
+        "CLIENT TYPE": [
+          "Private Developer"
+        ],
+        "CENTROID COORDINATES": "",
+        "ADDRESS": "Woodbine area",
+        "PROJECT TYPE": [
+          "Development Approvals",
+          "Master Planning",
+          "New Community Plan",
+          "Urban Design"
+        ],
+        "PROJECT FOCUS": [
+          ""
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 1,
+        "USI TEAM MEMBERS": [
+          "Christine Fang-Denissov",
+          "Michel Trocme",
+          "Josh Kohler",
+          "CK?"
+        ],
+        "PRINCIPAL IN CHARGE": "Leigh McGrath",
+        "PROJECT MANAGER": "Corals Zheng",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "N/A",
+        "APPROVAL TYPE(S)": [
+          "N/A"
+        ],
+        "APPROVAL STATUS": "N/A",
+        "RESIDENTIAL UNITS": "N/A",
+        "AFFORDABLE UNITS (%)": "N/A",
+        "AFFORDABLE UNITS": "N/A",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "N/A",
+        "DENSITY": "N/A",
+        "HEIGHT (METERS)": "N/A",
+        "HEIGHT (STOREYS)": "N/A",
+        "SITE AREA (M2)": "N/A",
+        "BY-LAW NUMBER(S)": [
+          "N/A"
+        ],
+        "MOST RECENT REPORT": "https://secure.toronto.ca/council/agenda-item.do?item=2025.PH18.11",
+        "NOTES": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": {}
+      },
+      "properties": {
+        "PROJECT NUMBER": "23075",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Allied King Spadina Development Approvals & OLT Appeals",
+        "CLIENT NAME": [
+          "Allied Properties Management LP"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "??",
+        "ADDRESS": "N/A",
+        "PROJECT TYPE": [
+          "Community Engagement",
+          "Development Approvals",
+          "Planning Analysis"
+        ],
+        "PROJECT FOCUS": [
+          ""
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": null,
+        "USI TEAM MEMBERS": [
+          "Benjamin Hoff",
+          "Josh Kohler",
+          "DG?"
+        ],
+        "PRINCIPAL IN CHARGE": "Benjamin Hoff",
+        "PROJECT MANAGER": "Josh Kohler",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "",
+        "APPROVAL TYPE(S)": [
+          ""
+        ],
+        "APPROVAL STATUS": "",
+        "RESIDENTIAL UNITS": "",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "",
+        "MAX. NON-RESIDENTIAL GFA": "",
+        "MIN. NON-RESIDENTIAL GFA": "",
+        "DENSITY": "",
+        "HEIGHT (METERS)": "",
+        "HEIGHT (STOREYS)": "",
+        "SITE AREA (M2)": "",
+        "BY-LAW NUMBER(S)": [
+          "112-2020"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2020/te/bgrd/backgroundfile-141218.pdf",
+        "NOTES": "what are the addresses associated with this project? I can only find secondary plan amendments but not a specific address for this project"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.472738,
+          43.737043
+        ]
+      },
+      "properties": {
+        "PROJECT NUMBER": "18000-5",
+        "IN TORONTO?": "TRUE",
+        "PROJECT NAME": "Downsview Taxiway West/Hangar District",
+        "CLIENT NAME": [
+          "Downsview Metro Devco Inc. (o/a Northcrest Developments)"
+        ],
+        "CLIENT TYPE": [
+          "Real Estate Developers"
+        ],
+        "CENTROID COORDINATES": "(-79.4727380, 43.7370430)",
+        "ADDRESS": "123 Garratt Boulevard, Toronto, Ontario",
+        "PROJECT TYPE": [
+          "Master Planning"
+        ],
+        "PROJECT FOCUS": [
+          "Mixed Use"
+        ],
+        "MUNICIPALITY": "Toronto",
+        "WARD": 6,
+        "USI TEAM MEMBERS": [
+          "Emily Reisman",
+          "Lauren Haein An",
+          "JM?"
+        ],
+        "PRINCIPAL IN CHARGE": "Emily Reisman",
+        "PROJECT MANAGER": "Lauren Haein An",
+        "PROJECT START YEAR": "",
+        "PROJECT END YEAR": "",
+        "APPROVAL YEAR": "2025",
+        "APPROVAL TYPE(S)": [
+          "ZBA"
+        ],
+        "APPROVAL STATUS": "Complete",
+        "RESIDENTIAL UNITS": "2957",
+        "AFFORDABLE UNITS (%)": "",
+        "AFFORDABLE UNITS": "",
+        "MAX. NON-RESIDENTIAL GFA": "N/A",
+        "MIN. NON-RESIDENTIAL GFA": "13146",
+        "DENSITY": "",
+        "HEIGHT (METERS)": "",
+        "HEIGHT (STOREYS)": "",
+        "SITE AREA (M2)": "",
+        "BY-LAW NUMBER(S)": [
+          "842-2025"
+        ],
+        "MOST RECENT REPORT": "https://www.toronto.ca/legdocs/mmis/2025/ny/bgrd/backgroundfile-256438.pdf",
+        "NOTES": "10% of residential gfa as affordable housing -- how to calculate for data in terms of units?"
+      }
+    }
+  ]
+}
