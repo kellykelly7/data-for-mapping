@@ -27,7 +27,9 @@
     <nav class="navbar navbar-expand-lg bg-danger" data-bs-theme="dark">
         <div class="container-fluid">
             
-            <a class="navbar-brand"><b>USI Projects Database</b></a>
+            <a class="navbar-brand" href = '#'>
+                <img src = 'USI_logo.png' width = '90' height = '55' alt = ''>
+            </a>
 
             <div class="collapse navbar-collapse" id="navbarColor01">
                 <ul class="navbar-nav me-auto">
@@ -44,7 +46,7 @@
         <div class = 'map-search-container' id = 'map-search-container'>
             <div class = 'geocoder' id = 'geocoder'></div>
         </div>
-        <button type = 'button' class = 'btn btn-primary' id = 'returnbutton'>Return to Full Extent</button>
+        <button type = 'button' class = 'btn btn-primary' id = 'returnbutton'>Clear Filters and Return to Full Extent</button>
     </div>
 
     <div class='description' id='description-container'>
@@ -52,12 +54,18 @@
         <ul>
             <li>Click on a point to view project information.</li>
             <li>Search or filter for relevant project information.</li>
+            <li>Search and filter can be combined for result precision.</li>
         </ul>
     </div>
 
     <div class = 'project_number_search' id = 'project_number_search'>
         <label for = 'project_number'><h3>Search by Project Number</h3></label>
         <input type = 'text' class = 'project_number_input' name = 'project_number' id = 'project_number' placeholder = 'Enter exact project number'>
+    </div>
+
+    <div class = 'project_SY_search' id = 'project_SY_search'>
+        <label for = 'project_start_year'><h3>Search by Project Start Year</h3></label>
+        <input type = 'text' class = 'project_SY_input' name = 'project_SY' id = 'project_SY' placeholder = 'Enter Project Start Year (e.g., 2023)'>
     </div>
 
     <div class = 'project_EY_search' id = 'project_EY_search'>
@@ -82,7 +90,7 @@
     </div>
 
     <div class = 'person_search' id = 'person_search'>
-        <label for = 'people'><h3>Search by Team Member</h3></label>
+        <label for = 'people'><h3>Search or Filter by Team Member</h3></label>
         <select class = 'member_searchbar' name = 'people' id = 'people'>
             <option value = '' disabled selected>Search by Team Member</option>
             <option value = 'All'>All</option>    
@@ -134,7 +142,9 @@
         </select>
     </div>
 
-   
+    <div class='map-legend' id='legend'>
+        <h5><b>Project Completion Status</h5>
+    </div>
 
     <div class = 'proj_data' id = 'proj_data'></div>
 
