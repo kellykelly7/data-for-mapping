@@ -60,7 +60,9 @@ map.on('load', () => {
                 'Ongoing', '#FFFF00',
                 'N/A', '#000000',
                 /* other */ '#008000'
-            ]
+            ],
+            'circle-stroke-color': '#000000',
+            'circle-stroke-width': 1
         }
     })
 });
@@ -270,3 +272,25 @@ if (projTypeEl) {
 } else {
     console.warn('#proj_type element not found');
 }
+
+/* -----------------------------------
+    Filter by Project Type
+------------------------------------*/
+
+$(function(){
+    $('.project_EY_input').on('input', function() {
+        var projectEY = $(this).val().trim();
+        console.log('Searching for project end year:', projectEY);
+
+        if (!projectEY) {
+            // If input is empty, show all points
+            map.setFilter('proj-points', null);
+        } else {
+            // Filter to show only projects matching the project number
+            map.setFilter(
+                'proj-points',
+                ['==', ['get', 'PROJECT_END_YEAR'], projectEY]
+            );
+        }
+    })
+});
