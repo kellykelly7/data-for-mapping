@@ -61,6 +61,7 @@ map.on('load', () => {
                 'N/A', '#000000',
                 /* other */ '#008000'
             ],
+            // set colour and width of circle borders
             'circle-stroke-color': '#000000',
             'circle-stroke-width': 1
         }
@@ -75,10 +76,22 @@ map.on('load', () => {
         placeholder: "Search for a team member (e.g., Leigh McGrath)"
     });
 
+    // convert selected option to text and store in activeFilters for combined filtering
     $('.member_searchbar').on('change', function() {
         var selectedMem = $('.member_searchbar option:selected').text();
         activeFilters.member = selectedMem;
         console.log('Member filter updated:', selectedMem);
+        applyFilter();
+    });
+
+    $('.client_searchbar').select2({
+        placeholder: "Search for a client name (e.g., Oxford Properties)"
+    });
+
+    $('.client_searchbar').on('change', function() {
+        var selectedClient = $('.client_searchbar option:selected').text();
+        activeFilters.client = selectedClient;
+        console.log('Client filter updated:', selectedClient);
         applyFilter();
     });
 
@@ -90,7 +103,7 @@ map.on('load', () => {
         applyFilter();
     });
 
-    // Project Type Filter
+    // Project Type Filter and combine with other filters
     const getProjType = document.getElementById('proj_type');
     if (getProjType) {
         getProjType.addEventListener('change', (e) => {
@@ -100,7 +113,7 @@ map.on('load', () => {
         });
     }
 
-    // Project End Year Search
+    // Project End Year Search and combine with other filters
     $('.project_EY_input').on('input', function() {
         var projectEY = $(this).val().trim();
         activeFilters.projectEY = projectEY || null;
@@ -108,7 +121,7 @@ map.on('load', () => {
         applyFilter();
     });
 
-    // Project Start Year Search
+    // Project Start Year Search and combine with other filters
     $('.project_SY_input').on('input', function() {
         var projectSY = $(this).val().trim();
         activeFilters.projectSY = projectSY || null;
@@ -120,6 +133,7 @@ map.on('load', () => {
         Initialize Legend (inside load event)
     ======================================*/
     
+    // create legend variable and dictionary for labels and colours
     const legend = document.getElementById('legend');
     const legendLabels = [
         {label: 'Ongoing Projects', color: '#FFFF00'},
@@ -127,6 +141,7 @@ map.on('load', () => {
         {label: 'N/A End Year', color: '#000000'}
     ];
 
+    // loop through labels and create legend items for each
     legendLabels.forEach((item) => {
         const legendItem = document.createElement('div');
         legendItem.className = 'legend-item';
@@ -143,6 +158,7 @@ map.on('load', () => {
         const label = document.createElement('span');
         label.textContent = item.label;
 
+        // add items to legend
         legendItem.appendChild(circle);
         legendItem.appendChild(label);
         legend.appendChild(legendItem);
@@ -162,17 +178,18 @@ map.on('load', () => {
         map.getCanvas().style.cursor = "";
     });
 
+    // when point is clicked fly to and zoom in on it and populate project info panel and popup
     map.on('click', 'proj-points', (e) => {
         const coordinates = e.features[0].geometry.coordinates
         const properties = e.features[0].properties;
 
+        // fly to preset coordinates from geojson, and zoom level 14
         map.flyTo({
             center: coordinates,
             zoom: 14
         });
 
-        const buttonID = e.features[0].id
-
+        // create dynamic desccription for popup
         const description = `
           <div>
             <h3>${e.features[0].properties.PROJECT_NAME}</h3>
@@ -181,11 +198,13 @@ map.on('load', () => {
           </div>
         `;
 
+        // create the popup at clicked point
         new mapboxgl.Popup()
             .setLngLat(coordinates)
             .setHTML(description)
             .addTo(map);
 
+        // dynamically populate project info panel (bottom right) with relevant project info
         const projInfoDiv = document.getElementById('proj_data');
         if (projInfoDiv) {
             projInfoDiv.innerHTML = '';
@@ -224,24 +243,28 @@ map.on('load', () => {
                 return String(val);
             };
             
+            // process possible array fields into text for clean presentation
             const projtype = toText(properties['PROJECT_TYPE']);
             const cliName = toText(properties['CLIENT_NAME']);
             const cliType = toText(properties['CLIENT_TYPE']);
             const USIteam = toText(properties['USI_TEAM_MEMBERS']);
             const bylawnum = toText(properties['BY_LAW_NUM']);
             
+            // debug in DevTools console (F12)
             console.log('projtype:', projtype);
             console.log('cliName:', cliName);
             console.log('cliType:', cliType);
             console.log('USIteam:', USIteam);
             console.log('bylawnum:', bylawnum);
             
+            // create HTML segments for each field
             const PROJTYPE = `<p><span class="label">Project Type:</span> ${projtype}</p>`
             const clientName = `<p><span class="label">Client Name(s):</span> ${cliName}</p>`
             const clientType = `<p><span class="label">Client Type:</span> ${cliType}</p>`
             const usiteam = `<p><span class="label">USI Team Members:</span> ${USIteam}</p>`
             const bylaw = `<p><span class="label">By-law Number(s):</span> ${bylawnum}</p>`
 
+            // insert info into div and make visible
             projInfoDiv.innerHTML = projname + projnum + address + PROJTYPE + clientName + clientType + usiteam + bylaw;
             projInfoDiv.style.display = 'block';
             projInfoDiv.classList.add('visible');
@@ -273,13 +296,13 @@ map.on('load', () => {
     });
 });
 
-/* -----------------------------------
+/* ==================================
     BUTTON: RETURN TO FULL EXTENT
-------------------------------------*/
+======================================*/
 
+// create button to respond to click event
 document.getElementById('returnbutton').addEventListener('click', () => {
-    console.log('Return button clicked');
-    
+    // fly back to full extent and center coordinates    
     map.jumpTo({
         center: [-79.357577, 43.721446], 
         zoom: 10.75,
@@ -296,6 +319,7 @@ document.getElementById('returnbutton').addEventListener('click', () => {
     activeFilters.projType = null;
     activeFilters.projectEY = null;
     activeFilters.projectSY = null;
+    activeFilters.clientName = null;
     console.log('Active filters reset:', activeFilters);
     
     // Clear form inputs and update Select2 UI
@@ -305,21 +329,31 @@ document.getElementById('returnbutton').addEventListener('click', () => {
         $(select).val(null).trigger('change');
     }
     
+    const clientSelect = document.querySelector('.client_searchbar');
+    if (clientSelect) {
+        // set value to null and trigger change so display value is updated
+        $(clientSelect).val(null).trigger('change');
+    }
+    
+    // clear selection
     const projTypeEl = document.getElementById('proj_type');
     if (projTypeEl) {
         projTypeEl.value = '';
     }
     
+    // clear input
     const projNumInput = document.querySelector('.project_number_input');
     if (projNumInput) {
         projNumInput.value = '';
     }
     
+    // clear input
     const projEYInput = document.querySelector('.project_EY_input');
     if (projEYInput) {
         projEYInput.value = '';
     }
 
+    // clear input
     const projSYInput = document.querySelector('.project_SY_input');
     if (projSYInput) {
         projSYInput.value = '';
@@ -348,9 +382,9 @@ document.getElementById('returnbutton').addEventListener('click', () => {
     }
 });
 
-/* ------------------------------------------
+/* ==========================================
     Combine filters to narrow down results
----------------------------------------------*/
+=============================================*/
 
 // Store active filter values
 let activeFilters = {
@@ -358,7 +392,8 @@ let activeFilters = {
     projectNumber: null,
     projType: null,
     projectEY: null,
-    projectSY: null
+    projectSY: null,
+    clientName: null
 };
 
 // Build combined filter from all active filters
@@ -371,6 +406,10 @@ function buildCombinedFilter() {
         filters.push(['in', activeFilters.member, ['get', 'USI_TEAM_MEMBERS']]);
     }
     
+    if (activeFilters.clientName && activeFilters.clientName !== 'All') {
+        filters.push(['in', activeFilters.clientName, ['get', 'CLIENT_NAME']]);
+    }
+
     // Add project number filter if active
     if (activeFilters.projectNumber) {
         filters.push(['==', ['to-string', ['get', 'PROJECT_NUMBER']], activeFilters.projectNumber]);
@@ -387,6 +426,7 @@ function buildCombinedFilter() {
         filters.push(['==', ['get', 'PROJECT_END_YEAR'], activeFilters.projectEY]);
     }
     
+    // Add project start year filter if active
     if (activeFilters.projectSY) {
         filters.push(['==', ['get', 'PROJECT_START_YEAR'], activeFilters.projectSY])
     }

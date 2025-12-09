@@ -55,6 +55,25 @@
     font-size: 16px;
 }
 
+.client_search {
+    float: left;
+    width: calc(25% - 30px);
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: white;
+    border: 3px solid #000000;
+    font-size: 22px;
+}
+
+.client_search .client_searchbar {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
 /* Search by project number box */
 .project_number_search {
     float: left;
