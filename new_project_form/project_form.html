@@ -16,14 +16,14 @@
         <div class="container-fluid">
             
             <a class="navbar-brand" href = '#'>
-                <img src = 'usi-logo-fixed.png' width = '90' height = '55' alt = ''>
+                <img src = '../usi-logo-fixed.png' width = '90' height = '55' alt = ''>
             </a>
 
             <div class="collapse navbar-collapse" id="navbarColor01">
                 <ul class="navbar-nav me-auto">
                     <!-- Active: Home -->
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link active" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="https://www.urbanstrategies.com/">USI Homepage</a>
@@ -37,6 +37,9 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="https://www.toronto.ca/legdocs/bylaws/lawhome.htm">By-law Lookup</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="new_project_form/project_form.html">Submit New Project</a>
+                    </li>                    
             </div>
         </div>
     </nav>
@@ -51,18 +54,29 @@
             <label for="location">Location:</label><br>
             <input type="text" id="location" name="location" required><br><br>
 
-            <h3>Project Type</h3>
+            <label><b>Project Type</b></label><br>
             <input type="checkbox" id="master_planning" name="master_planning" value="Master Planning">
             <label for="master_planning">Master Planning</label><br>
             <input type="checkbox" id="urban_design" name="urban_design" value="Urban Design">
             <label for="urban_design">Urban Design</label><br>
-
+            <input type="checkbox" id="dev_approvals" name="dev_approvals" value="Development Approvals">
+            <label for="dev_approvals">Development Approvals</label><br>
+            <input type="checkbox" id="comm_engagement" name="comm_engagement" value="Community Engagement">
+            <label for="comm_engagement">Community Engagement</label><br>
+            <input type="checkbox" id="due_dil_study" name="due_dil_study" value="Due Diligence Study">
+            <label for="due_dil_study">Due Diligence Study</label><br>
+            <input type="checkbox" id="planning_analysis" name="planning_analysis" value="Planning Analysis">
+            <label for="planning_analysis">Planning Analysis</label><br>         
+            <input type="checkbox" id="TOD" name="TOD" value="Transit-Oriented Development">
+            <label for="TOD">Transit-Oriented Development</label><br>
+            <input type="checkbox" id="not_available" name="not_available" value="N/A">
+            <label for="not_available">N/A</label><br>   
 
             <br>
             <label for="client_name">Client Name:</label><br>
             <input type="text" id="client_name" name="client_name" required><br><br>
 
-
+            
 
             <label for="team_members">Team Members (comma-separated):</label><br>
             <input type="text" id="team_members" name="team_members" required><br><br>
