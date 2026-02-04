@@ -3,6 +3,13 @@
     height: 75px;
 }
 
+.nav-item {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 /* set map-container position, margins, and size */
 .map-container {
     float: right;
@@ -48,14 +55,18 @@
 
 /* Select2 dropdown styling to match the container */
 .person_search .member_searchbar {
+    float: left;
     width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: white;
+    border: 3px solid #000000;
     font-size: 16px;
 }
 
-.client_search {
+.client_name_search {
     float: left;
     width: calc(25% - 30px);
     padding: 10px;
@@ -66,11 +77,11 @@
     font-size: 22px;
 }
 
-.client_search .client_searchbar {
+.client_name_search .client_searchbar {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 3px solid #000000;
     font-size: 16px;
 }
 
@@ -161,9 +172,14 @@
 .mapboxgl-popup-content {
     color: #000;
     background-color: #FFEE8C;
-    border-radius: 5px;
-    max-width: 600px;
-    font: 400 28px/32px 'Helvetica Neue';
+    border-radius: 15px;
+    max-width: 800px;
+    font: 300 20px/28px 'Trebuchet MS', sans-serif;
+}
+
+.mapboxgl-popup-content h3 {
+    font-size: 22px;
+    margin: 0 0 10px 0;
 }
 
 .proj_data {

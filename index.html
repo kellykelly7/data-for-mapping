@@ -28,7 +28,7 @@
         <div class="container-fluid">
             
             <a class="navbar-brand" href = '#'>
-                <img src = 'USI_logo.png' width = '90' height = '55' alt = ''>
+                <img src = 'usi-logo-fixed.png' width = '90' height = '55' alt = ''>
             </a>
 
             <div class="collapse navbar-collapse" id="navbarColor01">
@@ -36,6 +36,15 @@
                     <!-- Active: Home -->
                     <li class="nav-item">
                         <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://www.urbanstrategies.com/">USI Homepage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://secure.toronto.ca/council/#/highlights">TMMIS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://olt.gov.on.ca/">OLT</a>
                     </li>
             </div>
         </div>
@@ -71,6 +80,14 @@
     <div class = 'project_EY_search' id = 'project_EY_search'>
         <label for = 'project_end_year'><h3>Search by Project End Year</h3></label>
         <input type = 'text' class = 'project_EY_input' name = 'project_EY' id = 'project_EY' placeholder = 'Enter Project End Year (e.g., 2023)'>
+    </div>
+
+    <div class = 'client_name_search' id = 'client_name_search'>
+        <label for = 'client_name'><h3>Search by Client Name</h3></label>
+        <input type = 'text' class = 'client_searchbar' name = 'client_name' id = 'client_name' placeholder = 'Enter exact client name' list = 'clientNames'>
+        <datalist id = 'clientNames'>
+            <!-- Populated dynamically from GeoJSON data -->
+        </datalist>
     </div>
     
     <div class = 'proj_type_dropdown' id = 'proj_type_dropdown'>
@@ -140,22 +157,7 @@
             <option value = 'Kenny Lamizana'>Kenny Lamizana</option>
             <option value = 'Grant Mason'>Grant Mason</option>
         </select>
-    </div>
-
-    <div class = 'client_search' id = 'client_search'>
-        <label for = 'client'><h3>Search or Filter by Client Name</h3></label>
-        <select class = 'client_searchbar' name = 'client' id = 'client'>
-            <option value = '' disabled selected>Search by client name</option>
-            <option value = 'All'>All</option>
-            <option value = 'Cadillac Fairview (CF)'>Cadillac Fairview (CF)</option>
-            <option value = 'Osmington Gerofsky Development Corp (OGDC)'>Osmington Gerofsky Development Corp (OGDC)</option>
-            <option value = 'Tridel'>Tridel</option>
-            <option value = 'Riocan'>Riocan</option>
-            <option value = 'Oxford Properties Group'>Oxford Properties Group</option>
-            <option value = 'First Capital Realty (FCR)'>First Capital Realty (FCR)</option>
-            <option value = 'Canada Lands Company'>Canada Lands Company</option>
-        </select>
-    </div>
+    </div> 
 
     <div class='map-legend' id='legend'>
         <h5><b>Project Completion Status</h5>

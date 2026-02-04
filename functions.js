@@ -1,5 +1,5 @@
 // insert personal mapbox token -- currently using mine (Kelly) but will need to be updated by a company-wide account or something
-// maybe there's one designated person or account managed by USI that has a token for running the map
+// maybe there's one designated person or account managed by USI that has a token for running the map 
 mapboxgl.accessToken = 'pk.eyJ1Ijoia2VsbHlrZWxseTciLCJhIjoiY202aWNjdDE5MDcwbTJrcHppYWw5ZjJzcCJ9.pry2p-gu8qXteiF0TWa4dw'
 
 // create a new map variable constant
@@ -9,6 +9,7 @@ const map = new mapboxgl.Map({
     // set projection (CRS) for web map
     projection: 'mercator',
     // style code sets the base map -- presently streets with Toronto's neighbourhoods polygon
+    // can change style to no polygon on Toronto
     style: 'mapbox://styles/kellykelly7/cmiexrzr9005n01qteivxh01o',
     // center of the map -- this is the centerpoint of the desired location
     // might change to world map, so will need to change this set of coordinates too
@@ -46,6 +47,19 @@ map.on('load', () => {
         data: 'USI_projects.geojson'
     })
 
+    // new map layer for toronto basemap -- only at specific zoom levels
+    map.addLayer({
+        id: 'toronto-basemap',
+        type: 'fill',
+        source: {
+            type: 'geojson',
+            data: 'toronto_neighbourhoods.geojson'},
+        paint:{
+            'fill-color': ['step', ['zoom'], '#F5333F', 12.5, 'transparent'],
+            'fill-opacity': 0.1
+        }
+    })
+
     // new map layer for the points from newly added data source
     map.addLayer({
         id: 'proj-points',
@@ -68,6 +82,46 @@ map.on('load', () => {
     })
 
     /* ===================================================
+        Populate Client Names Datalist from GeoJSON
+    ===================================================*/
+    
+    // Fetch the GeoJSON file and extract all unique client names
+    fetch('USI_projects.geojson')
+        .then(response => response.json())
+        .then(data => {
+            const clientNamesSet = new Set();
+            
+            // Extract all unique client names from features
+            data.features.forEach(feature => {
+                const clientNames = feature.properties.CLIENT_NAME;
+                if (clientNames && Array.isArray(clientNames)) {
+                    clientNames.forEach(name => {
+                        if (name && name.trim()) {
+                            clientNamesSet.add(name.trim());
+                        }
+                    });
+                }
+            });
+            
+            // Populate the datalist with unique client names
+            const clientNamesDatalist = document.getElementById('clientNames');
+            if (clientNamesDatalist) {
+                // Clear existing options
+                clientNamesDatalist.innerHTML = '';
+                
+                // Add options for each unique client name (sorted)
+                Array.from(clientNamesSet).sort().forEach(clientName => {
+                    const option = document.createElement('option');
+                    option.value = clientName;
+                    clientNamesDatalist.appendChild(option);
+                });
+                
+                console.log('Populated datalist with', clientNamesSet.size, 'unique client names');
+            }
+        })
+        .catch(error => console.error('Error loading GeoJSON for datalist:', error));
+
+    /* ===================================================
         Attach Filter Handlers (after layer is created)
     ===================================================*/
     
@@ -84,14 +138,12 @@ map.on('load', () => {
         applyFilter();
     });
 
-    $('.client_searchbar').select2({
-        placeholder: "Search for a client name (e.g., Oxford Properties)"
-    });
-
-    $('.client_searchbar').on('change', function() {
-        var selectedClient = $('.client_searchbar option:selected').text();
-        activeFilters.client = selectedClient;
-        console.log('Client filter updated:', selectedClient);
+    // Client Name Search
+    $('.client_searchbar').on('input', function() {
+        var clientName = $(this).val().trim();
+        activeFilters.clientName = clientName || null;
+        console.log('Client filter updated:', clientName);
+        console.log('Active filters:', activeFilters);
         applyFilter();
     });
 
@@ -176,33 +228,55 @@ map.on('load', () => {
     // When mouse leaves a point
     map.on("mouseleave", "proj-points", () => {
         map.getCanvas().style.cursor = "";
+        // Remove hover popup when mouse leaves
+        const existingPopups = document.querySelectorAll('.mapboxgl-popup');
+        existingPopups.forEach(popup => popup.remove());
     });
 
-    // when point is clicked fly to and zoom in on it and populate project info panel and popup
-    map.on('click', 'proj-points', (e) => {
-        const coordinates = e.features[0].geometry.coordinates
+    // Hover popup - show on mousemove
+    map.on('mousemove', 'proj-points', (e) => {
+        const coordinates = e.features[0].geometry.coordinates;
         const properties = e.features[0].properties;
-
-        // fly to preset coordinates from geojson, and zoom level 14
-        map.flyTo({
-            center: coordinates,
-            zoom: 14
-        });
-
-        // create dynamic desccription for popup
+        
+        // create dynamic description for popup
         const description = `
           <div>
-            <h3>${e.features[0].properties.PROJECT_NAME}</h3>
-            <p><strong>Project Number:</strong> ${e.features[0].properties.PROJECT_NUMBER}</p>
-            <p><strong>Address:</strong> ${e.features[0].properties.ADDRESS}</p>
+            <h3><b>${properties.PROJECT_NAME}</b></h3>
+            <p><strong><b>Project Number:</b></strong> ${properties.PROJECT_NUMBER}</p>
+            <p><strong><b>Address:</b></strong> ${properties.ADDRESS}</p>
           </div>
         `;
 
-        // create the popup at clicked point
+        // Remove existing popups before creating new one
+        const existingPopups = document.querySelectorAll('.mapboxgl-popup');
+        existingPopups.forEach(popup => popup.remove());
+
+        // create the popup at hovered point
         new mapboxgl.Popup()
             .setLngLat(coordinates)
             .setHTML(description)
             .addTo(map);
+    });
+    
+    map.on('click', 'proj-points', (e) => {
+        const coordinates = e.features[0].geometry.coordinates;
+        const properties = e.features[0].properties;
+
+        // create dynamic desccription for popup
+        const description = `
+          <div>
+            <h3>${properties.PROJECT_NAME}</h3>
+            <p><strong>Project Number:</strong> ${properties.PROJECT_NUMBER}</p>
+            <p><strong>Address:</strong> ${properties.ADDRESS}</p>
+          </div>
+        `;
+
+        // Zoom into the clicked point
+        map.flyTo({
+            center: coordinates,
+            zoom: 15,
+            essential: true
+        });
 
         // dynamically populate project info panel (bottom right) with relevant project info
         const projInfoDiv = document.getElementById('proj_data');
@@ -322,50 +396,40 @@ document.getElementById('returnbutton').addEventListener('click', () => {
     activeFilters.clientName = null;
     console.log('Active filters reset:', activeFilters);
     
-    // Clear form inputs and update Select2 UI
+    // Clear form inputs (without triggering events to avoid recursive calls)
     const select = document.querySelector('.member_searchbar');
     if (select) {
-        // set value to null and trigger change so Select2 updates its displayed value
-        $(select).val(null).trigger('change');
+        // Clear Select2 without triggering change event
+        $(select).val('').trigger('change.select2');
     }
     
     const clientSelect = document.querySelector('.client_searchbar');
     if (clientSelect) {
-        // set value to null and trigger change so display value is updated
-        $(clientSelect).val(null).trigger('change');
+        clientSelect.value = '';
     }
     
-    // clear selection
     const projTypeEl = document.getElementById('proj_type');
     if (projTypeEl) {
         projTypeEl.value = '';
     }
     
-    // clear input
     const projNumInput = document.querySelector('.project_number_input');
     if (projNumInput) {
         projNumInput.value = '';
     }
     
-    // clear input
     const projEYInput = document.querySelector('.project_EY_input');
     if (projEYInput) {
         projEYInput.value = '';
     }
 
-    // clear input
     const projSYInput = document.querySelector('.project_SY_input');
     if (projSYInput) {
         projSYInput.value = '';
     }
     
-    // Directly set filter to null to show all points
-    if (map.getLayer('proj-points')) {
-        map.setFilter('proj-points', null);
-        console.log('Layer filter set to null - all points should be visible');
-    } else {
-        console.warn('Layer proj-points does not exist');
-    }
+    // Apply filter to show all points
+    applyFilter();
     
     // Hide the project info panel
     const projInfoDiv = document.getElementById('proj_data');
@@ -406,6 +470,8 @@ function buildCombinedFilter() {
         filters.push(['in', activeFilters.member, ['get', 'USI_TEAM_MEMBERS']]);
     }
     
+    // Add client name filter if active
+    // Check if the selected client name appears in the CLIENT_NAME array
     if (activeFilters.clientName && activeFilters.clientName !== 'All') {
         filters.push(['in', activeFilters.clientName, ['get', 'CLIENT_NAME']]);
     }
@@ -428,7 +494,7 @@ function buildCombinedFilter() {
     
     // Add project start year filter if active
     if (activeFilters.projectSY) {
-        filters.push(['==', ['get', 'PROJECT_START_YEAR'], activeFilters.projectSY])
+        filters.push(['==', ['get', 'PROJECT_START_YEAR'], activeFilters.projectSY]);
     }
 
     // If no filters, return null (show all)
@@ -450,10 +516,19 @@ function applyFilter() {
     const combinedFilter = buildCombinedFilter();
     console.log('Applying combined filter:', combinedFilter);
     
-    // Use null to show all features, or the filter expression
-    if (combinedFilter === null) {
+    try {
+        // Use null to show all features, or the filter expression
+        if (combinedFilter === null) {
+            map.setFilter('proj-points', null);
+            console.log('Filter set to null - showing all points');
+        } else {
+            map.setFilter('proj-points', combinedFilter);
+            console.log('Filter applied successfully');
+        }
+    } catch (error) {
+        console.error('Error applying filter:', error);
+        console.error('Filter expression was:', combinedFilter);
+        // Reset to show all points if there's an error
         map.setFilter('proj-points', null);
-    } else {
-        map.setFilter('proj-points', combinedFilter);
     }
 }
