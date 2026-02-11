@@ -39,6 +39,7 @@
     background: white;
     border: 3px solid #000000;
     font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Search by team member box */
@@ -51,6 +52,7 @@
     background: white;
     border: 3px solid #000000;
     font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Select2 dropdown styling to match the container */
@@ -64,6 +66,7 @@
     background: white;
     border: 3px solid #000000;
     font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .client_name_search {
@@ -75,6 +78,7 @@
     background: white;
     border: 3px solid #000000;
     font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .client_name_search .client_searchbar {
@@ -83,6 +87,7 @@
     border: 1px solid #ccc;
     border-radius: 3px solid #000000;
     font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Search by project number box */
@@ -95,6 +100,7 @@
     background: white;
     border: 3px solid #000000;
     font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .proj_type_dropdown {
@@ -106,6 +112,7 @@
     background: white;
     border: 3px solid #000000;
     font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .project_SY_search {
@@ -117,6 +124,7 @@
     background: white;
     border: 3px solid #000000;
     font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .project_SY_search .project_SY_input {
@@ -126,6 +134,7 @@
     border-radius: 4px;
     font-size: 16px;
     box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }   
 
 .project_EY_search {
@@ -137,6 +146,7 @@
     background: white;
     border: 3px solid #000000;
     font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .project_EY_search .project_EY_input {
@@ -146,6 +156,7 @@
     border-radius: 4px;
     font-size: 16px;
     box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Project number input styling */
@@ -156,6 +167,7 @@
     border-radius: 4px;
     font-size: 16px;
     box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Controls and filters */
@@ -166,6 +178,8 @@
     left: 10px;
     float: left;
     z-index: 2;
+    background-color: #DC3545;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Pop up and sidebar */
@@ -174,12 +188,13 @@
     background-color: #FFEE8C;
     border-radius: 15px;
     max-width: 800px;
-    font: 300 20px/28px 'Trebuchet MS', sans-serif;
+    font: 300 20px/28px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .mapboxgl-popup-content h3 {
     font-size: 22px;
     margin: 0 0 10px 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .proj_data {
@@ -197,6 +212,7 @@
     font-size: 24px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 10;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Ensure project info text defaults to normal weight; use .label for bold labels */
@@ -231,6 +247,7 @@
     box-shadow: 0 6px 12px rgba(0,0,0,0.12);
     z-index: 1000;
     font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .map-legend .legend-circle {
@@ -247,6 +264,7 @@
     margin-bottom: 8px;
     font-size: 15px;
     line-height: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Position modifier helpers: add one of these classes to the legend element */

@@ -188,9 +188,9 @@ map.on('load', () => {
     // create legend variable and dictionary for labels and colours
     const legend = document.getElementById('legend');
     const legendLabels = [
-        {label: 'Ongoing Projects', color: '#FFFF00'},
-        {label: 'Completed Projects', color: '#008000'},
-        {label: 'N/A End Year', color: '#000000'}
+        {label: 'Ongoing Projects', color: '#FFFF00', borderColor: '#000000', borderWidth: '1px'},
+        {label: 'Completed Projects', color: '#008000', borderColor: '#000000', borderWidth: '1px'},
+        {label: 'N/A End Year', color: '#000000', borderColor: '#000000', borderWidth: '1px'}
     ];
 
     // loop through labels and create legend items for each
@@ -206,6 +206,7 @@ map.on('load', () => {
         circle.style.display = 'inline-block';
         circle.style.marginRight = '8px';
         circle.style.verticalAlign = 'middle';
+        circle.style.border = item.borderWidth + ' solid ' + item.borderColor;
         
         const label = document.createElement('span');
         label.textContent = item.label;
