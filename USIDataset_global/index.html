@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>USI Database</title>
+
+
+    <!--Mapbox GL JS-->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.14.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.14.0/mapbox-gl.css" rel="stylesheet"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+
+    <!--Project Data-->
+    <script src="projects.js"></script>
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Font Awesome (info icon) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Mapbox Geocoder (search bar) -->
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.3/mapbox-gl-geocoder.css" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.3/mapbox-gl-geocoder.min.js"></script>
+
+
+    
+    
+
+</head>
+
+<body>
+    <!--Navigation bar-->
+    <nav class="navbar navbar-expand-lg bg-danger" data-bs-theme="dark">
+        <div class="container-fluid">
+            
+            <a class="navbar-brand" href = '#'>
+                <img src = 'usi-logo-fixed.png' width = '90' height = '55' alt = ''>
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                    <!-- Active: Home -->
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://www.urbanstrategies.com/">USI Homepage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://secure.toronto.ca/council/#/highlights">TMMIS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://olt.gov.on.ca/">OLT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://www.toronto.ca/legdocs/bylaws/lawhome.htm">By-law Lookup</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../new_project_form/project_form.html">Submit New Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Simplified Global* Dataset</a>
+                    </li>                    
+                </ul>
+            </div>
+            
+            <!-- Tooltip for more info/info button -->
+            <div class="info-tooltip">
+                <i style="font-size:24px" class="fa">&#xf05a;</i>
+                <span class="info-tooltip-text">Click on a project point or listing for more information <br><br> Search for relevant project information</span>
+            </div>
+
+        </div>
+    </nav>
+    
+    <!--Sidebar-->
+    <div class="sidebar">
+        <h2 id="project-count" class="sidebar-title">Projects nearby: 0</h2>
+        <div id="listings" class="listings"></div>
+    </div>
+
+    <!--Map-->
+    <div id="map" class="map">
+
+    <!-- Search container -->
+    <div class="map-search-container" id="map-search-container">
+        <div class="geocoder" id="geocoder"></div>
+    </div>
+   
+   <!--Clear filters and return to full extent button-->  
+    <button type="button" class="btn btn-primary" id="returnbutton">Return to Full Extent</button>
+    </div>
+    
+    <!--Map Legend-->
+    <div id="legend" class="map-legend">
+        <h4>Project Completion Status</h4>
+    </div>
+
+    <!--Project Info Panel-->
+    <div id="proj_data" class="proj_data"></div>
+    
+    <!--JavaScript-->
+    
+    <script>
+
+    //Mapbox access token
+    mapboxgl.accessToken = 'pk.eyJ1IjoibGVhcm5pbmcyMDI2IiwiYSI6ImNta2U2aDRkMjAzdjkzY3B3ZmxzNngydnoifQ.0eW2w672mlfwno4eVaYn8g';
+
+    // Global state
+    let map;
+    /**
+     * Initialize the map
+     */
+    function initMap() {
+        map = new mapboxgl.Map({
+            container: 'map',
+            center: [-79.357577, 43.721446],
+            zoom: 10.75
+        });
+
+        map.on('load', () => {
+            projects.features.forEach((feature, i) => {
+                feature.properties.id = i;
+            });
+            map.addLayer({
+                id: 'projects-layer',
+                type: 'circle',
+                source: {
+                    type: 'geojson',
+                    data: projects
+                },
+                paint: {
+
+                    'circle-radius': 7,
+                    'circle-color': ['match',
+                        ['get', 'PROJECT_END_YEAR'],
+                        'Ongoing', '#FFFF00',
+                        'N/A', '#000000',
+                        /* other */ '#008000'
+            ],
+                    'circle-stroke-width': 1,
+                    'circle-stroke-color': '#000000'
+                }
+            });
+            
+            // Add click handler to the layer
+            map.on('click', 'projects-layer', (e) => {
+                const feature = e.features[0];
+                selectStore(feature, feature.properties.id);
+            });
+            // Change cursor to pointer on hover
+            map.on('mouseenter', 'projects-layer', () => {
+                map.getCanvas().style.cursor = 'pointer';
+            });
+            map.on('mouseleave', 'projects-layer', () => {
+                map.getCanvas().style.cursor = '';
+            });
+            
+            buildLocationList(projects);
+        
+        });
+    }
+
+
+    function buildLocationList (data) {
+        const listings = document.getElementById('listings');
+        const projectCount = document.getElementById('project-count');
+
+        projectCount.textContent = `Projects nearby: ${data.features.length}`;
+
+        listings.innerHTML = '';
+
+        data.features.forEach((project, i) => {
+            const listing = document.createElement('div');
+            listing.className = 'project-item';
+            listing.id = `listing-${i}`;
+            listing.dataset.projectIndex = i;
+            
+            //Content of each listing
+            listing.innerHTML = `
+                    <h3 class="project-name">${project.properties.PROJECT_NAME}</h3>
+                    <div class="project-details">
+                        <div>
+                            <span class="label">Project Number: </span>${project.properties.PROJECT_NUMBER}
+                        </div>
+                        
+                        <div>
+                            <span class="label">Address: </span>${project.properties.ADDRESS}
+                        </div>
+                        
+                    </div>
+                `;
+                
+            // Add click event to listing
+            listing.addEventListener('click', () => {
+                selectStore(project, i);
+            });
+
+            listings.appendChild(listing);       
+        });
+
+    }
+
+          /**
+       * Fly to a store location on the map
+       */
+      function flyToStore(project) {
+        map.flyTo({
+          center: project.geometry.coordinates,
+          zoom: 16,
+          duration: 1000
+        });
+      }
+
+      /**
+       * Handle store selection from either marker or sidebar
+       */
+      function selectStore(project, index) {
+        console.log('Project selected:', project.properties.PROJECT_NAME);
+
+        // Update sidebar - remove previous active state
+        const activeItems = document.querySelectorAll('.project-item.active');
+        activeItems.forEach((item) => item.classList.remove('active'));
+
+        // Add active state to selected item
+        const selectedListing = document.getElementById(`listing-${index}`);
+        if (selectedListing) {
+          selectedListing.classList.add('active');
+          selectedListing.scrollIntoView({
+            behavior: 'smooth',
+            block: 'nearest'
+          });
+        }
+
+        // Fly to the selected project
+        flyToStore(project);
+
+                // Populate info panel with selected project details
+                updateProjectInfoPanel(project.properties);
+      }
+
+      // create legend variable and dictionary for labels and colours
+    const legend = document.getElementById('legend');
+    const legendLabels = [
+        {label: 'Ongoing Projects', color: '#FFFF00'},
+        {label: 'Completed Projects', color: '#008000'},
+        {label: 'N/A End Year', color: '#000000'}
+    ];
+
+    // loop through labels and create legend items for each
+    legendLabels.forEach((item) => {
+        const legendItem = document.createElement('div');
+        legendItem.className = 'legend-item';
+
+        const circle = document.createElement('div');
+        circle.className = 'legend-circle';
+        circle.style.backgroundColor = item.color;
+        circle.style.width = '14px';
+        circle.style.height = '14px';
+        circle.style.display = 'inline-block';
+        circle.style.marginRight = '8px';
+        circle.style.verticalAlign = 'middle';
+        
+        const label = document.createElement('span');
+        label.textContent = item.label;
+
+        // add items to legend
+        legendItem.appendChild(circle);
+        legendItem.appendChild(label);
+        legend.appendChild(legendItem);
+    });
+
+    //Description panel
+    
+
+        // Populate sidebar even if map fails to load
+        if (typeof projects !== 'undefined' && projects.features && projects.features.length >= 0) {
+         buildLocationList(projects);
+        } else {
+        console.warn('`projects` is undefined or has no features — sidebar not populated.');
+        }
+
+        initMap();
+
+        // Create geocoder as a variable
+        const geocoder = new MapboxGeocoder({
+        accessToken: mapboxgl.accessToken,
+        mapboxgl: mapboxgl
+    });
+
+        // Append geocoder variable to geocoder HTML div to position on page
+        document.getElementById("geocoder").appendChild(geocoder.onAdd(map));
+
+    // Helper function to safely convert arrays/strings to comma-separated text
+    const toText = (val) => {
+        if (!val) return 'N/A';
+
+        if (typeof val === 'string') {
+            const trimmed = val.trim();
+            if (trimmed.startsWith('[')) {
+                try {
+                    const parsed = JSON.parse(trimmed);
+                    if (Array.isArray(parsed)) {
+                        return parsed.filter(v => v && v.toString().trim()).join(', ');
+                    }
+                } catch (e) {
+                    console.warn('Failed to parse JSON:', trimmed, e);
+                }
+            }
+            return trimmed || 'N/A';
+        }
+
+        if (Array.isArray(val)) {
+            return val.filter(v => v && v.toString().trim()).join(', ');
+        }
+
+        return String(val);
+    };
+
+    // Dynamically populate info panel with relevant project info
+    function updateProjectInfoPanel(properties) {
+        const projInfoDiv = document.getElementById('proj_data');
+        if (!projInfoDiv || !properties) return;
+
+        const projname = `<p class="proj-name">${properties.PROJECT_NAME || 'N/A'}</p>`;
+        const projnum = `<p><span class="label">Project Number:</span> ${properties.PROJECT_NUMBER || 'N/A'}</p>`;
+        const address = `<p><span class="label">Address:</span> ${properties.ADDRESS || 'N/A'}</p>`;
+        const projtype = toText(properties.PROJECT_TYPE);
+        const cliName = toText(properties.CLIENT_NAME);
+        const cliType = toText(properties.CLIENT_TYPE);
+        const USIteam = toText(properties.USI_TEAM_MEMBERS);
+        const bylawnum = toText(properties.BY_LAW_NUM);
+
+        const PROJTYPE = `<p><span class="label">Project Type:</span> ${projtype}</p>`;
+        const clientName = `<p><span class="label">Client Name(s):</span> ${cliName}</p>`;
+        const clientType = `<p><span class="label">Client Type:</span> ${cliType}</p>`;
+        const usiteam = `<p><span class="label">USI Team Members:</span> ${USIteam}</p>`;
+        const bylaw = `<p><span class="label">By-law Number(s):</span> ${bylawnum}</p>`;
+
+        projInfoDiv.innerHTML = projname + projnum + address + PROJTYPE + clientName + clientType + usiteam + bylaw;
+        projInfoDiv.style.display = 'block';
+
+        const legendEl = document.getElementById('legend');
+        if (legendEl) {
+            legendEl.style.display = 'none';
+        }
+    }
+    // Hide the project info panel when clicking on the map but not on a project point
+    map.on('click', (e) => {
+        const features = map.queryRenderedFeatures(e.point, { layers: ['projects-layer'] });
+        if (!features || features.length === 0) {
+            const projInfoDiv = document.getElementById('proj_data');
+            if (projInfoDiv) {
+                projInfoDiv.style.display = 'none';
+                projInfoDiv.classList.remove('visible');
+                projInfoDiv.innerHTML = '';
+            }
+            // Show legend when no project is selected
+            const legendEl = document.getElementById('legend');
+            if (legendEl) {
+                legendEl.style.display = 'block';
+            }
+        }
+    });
+
+    // Add navigation and fullscreen controls
+    map.addControl(new mapboxgl.NavigationControl());
+    map.addControl(new mapboxgl.FullscreenControl());
+    map.scrollZoom.enable();
+    map.boxZoom.enable();
+    map.dragPan.enable();
+    map.dragRotate.enable();
+    map.keyboard.enable();
+    map.doubleClickZoom.enable();
+    map.touchZoomRotate.enable();
+
+    // Clear filters and return to full extent button
+    document.getElementById('returnbutton').addEventListener('click', () => {
+        // Remove active state from all listings
+        const activeItems = document.querySelectorAll('.project-item.active');
+        activeItems.forEach((item) => item.classList.remove('active'));
+
+        const projInfoDiv = document.getElementById('proj_data');
+        if (projInfoDiv) {
+            projInfoDiv.style.display = 'none';
+            projInfoDiv.innerHTML = '';
+        }
+
+        const legendEl = document.getElementById('legend');
+        if (legendEl) {
+            legendEl.style.display = 'block';
+        }
+        
+        // Fly back to original view
+        map.flyTo({
+            center: [-79.357577, 43.721446],
+            zoom: 10.75,
+            duration: 1000,
+            essential: true,
+            
+        });
+    });
+
+    </script>
+
+
+</body>
+
+
+
+</html>

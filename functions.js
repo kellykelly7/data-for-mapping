@@ -154,6 +154,13 @@ map.on('load', () => {
         console.log('Project number filter:', projectNumber);
         applyFilter();
     });
+    // Add project number filter if active (updated for partial matches)
+    if (activeFilters.projectNumber) {
+        // Escape special regex characters in the input
+        const escaped = activeFilters.projectNumber.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        // Use match expression: if the project number contains the input as a substring, include it
+        filters.push(['==', ['match', ['to-string', ['get', 'PROJECT_NUMBER']], new RegExp('.*' + escaped + '.*'), true, false], true]);
+    }    
 
     // Project Type Filter and combine with other filters
     const getProjType = document.getElementById('proj_type');
@@ -477,9 +484,9 @@ function buildCombinedFilter() {
         filters.push(['in', activeFilters.clientName, ['get', 'CLIENT_NAME']]);
     }
 
-    // Add project number filter if active
+    // Add project number filter if active (partial matching)
     if (activeFilters.projectNumber) {
-        filters.push(['==', ['to-string', ['get', 'PROJECT_NUMBER']], activeFilters.projectNumber]);
+        filters.push(['>=', ['index-of', activeFilters.projectNumber, ['to-string', ['get', 'PROJECT_NUMBER']]], 0]);
     }
     
     // Add project type filter if active
