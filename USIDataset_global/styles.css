@@ -125,7 +125,7 @@ body {
 
 .sidebar {
     position: absolute;
-    width: 25%;
+    width: 18%;
     height: calc(100% - 75px);
     left: 0;
     padding: 1rem;
@@ -137,8 +137,8 @@ body {
 
 .map {
     position: float;
-    left: 25%;
-    width: 75%;
+    left: 18%;
+    width: 82%;
     bottom: 0;
     height: calc(100% - 75px);
 }
@@ -160,7 +160,7 @@ body {
   flex-direction: column;
   margin: 1.5rem 0;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  border: 1px solid #000000;
+  border: 2px solid #000000;
   border-radius: 0.5rem;
   transition: background-color 0.3s ease;
   cursor: pointer;

@@ -125,6 +125,18 @@
             projects.features.forEach((feature, i) => {
                 feature.properties.id = i;
             });
+            // new map layer for toronto basemap -- only at specific zoom levels
+            map.addLayer({
+                id: 'toronto-basemap',
+                type: 'fill',
+                source: {
+                    type: 'geojson',
+                    data: '../toronto_neighbourhoods.geojson'},
+                paint:{
+                    'fill-color': ['step', ['zoom'], '#F5333F', 12.5, 'transparent'],
+                    'fill-opacity': 0.1
+                }
+            })
             map.addLayer({
                 id: 'projects-layer',
                 type: 'circle',
@@ -134,7 +146,7 @@
                 },
                 paint: {
 
-                    'circle-radius': 7,
+                    'circle-radius': 5,
                     'circle-color': ['match',
                         ['get', 'PROJECT_END_YEAR'],
                         'Ongoing', '#FFFF00',
